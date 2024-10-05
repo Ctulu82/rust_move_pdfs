@@ -1,24 +1,22 @@
+mod destination_map;
+
+use destination_map::get_destination_map;
 use std::env;
 use std::fs;
 use std::io;
 
 fn main() -> io::Result<()> {
-    // 현재 실행 중인 프로그램의 경로를 기준으로 설정
+    // 현재 디렉토리를 기준으로 설정
     let current_dir = env::current_dir()?;
-    println!("Current directory: {:?}", current_dir);
+    println!("Current directory: {:?}\n", current_dir);
 
-    // 원본 디렉토리: 현재 디렉토리의 상대 경로
-    let source_dir = current_dir.join("./");
+    // 모듈에서 목적지 디렉토리 맵을 로드
+    let destination_map = get_destination_map();
 
-    // 목적지 디렉토리: 동적으로 결정
-    let mut dest_dir = current_dir.join("./");
+    // 원본 디렉토리 설정 (예: ./pdfs)
+    let source_dir = current_dir.join("./Downloads/_DONE/_Magazines");
 
-    // 디렉토리가 존재하는지 확인하고 없으면 생성
-    if !dest_dir.exists() {
-        fs::create_dir_all(&dest_dir)?;
-    }
-
-    // 원본 디렉토리에서 PDF 파일들을 읽어옵니다.
+    // 원본 디렉토리에서 PDF 파일을 읽어옴
     for entry in fs::read_dir(&source_dir)? {
         let entry = entry?;
         let path = entry.path();
@@ -27,26 +25,27 @@ fn main() -> io::Result<()> {
         if path.is_file() && path.extension().map_or(false, |ext| ext == "pdf") {
             let file_name = path.file_name().unwrap().to_string_lossy();
 
-            if file_name.starts_with("25 Beautiful Homes ") {
-                dest_dir = current_dir.join("./__Future Plc/25 Beautiful Homes");
-            } else if file_name.starts_with("TypeB_") {
-                dest_dir = current_dir.join("./sorted/type_b");
-            } else {
-                // 해당하지 않으면 continue로 다음 파일로 넘어갑니다.
-                continue;
-            }
+            // PDF 이름에 맞는 목적지 디렉토리 찾기
+            if let Some(dest_dir) = destination_map.iter().find_map(|(prefix, dir)| {
+                if file_name.starts_with(prefix) {
+                    Some(current_dir.join(dir))
+                } else {
+                    None
+                }
+            }) {
+                // 목적지 디렉토리가 없다면 생성
+                if !dest_dir.exists() {
+                    fs::create_dir_all(&dest_dir)?;
+                }
 
-            // 목적지 디렉토리가 없다면 생성
-            if !dest_dir.exists() {
-                fs::create_dir_all(&dest_dir)?;
+                // 파일을 지정된 경로로 이동
+                let dest_file = dest_dir.join(entry.file_name());
+                fs::rename(&path, &dest_file)?;
+                println!("Moved {:?} to {:?}\n", file_name, dest_dir);
             }
-
-            // 파일을 지정된 경로로 이동
-            let dest_file = dest_dir.join(entry.file_name());
-            fs::rename(&path, &dest_file)?;
-            println!("Moved {:?} to {:?}", file_name, dest_dir);
         }
     }
 
+    println!("PDF 파일 이동이 완료되었습니다.");
     Ok(())
 }
