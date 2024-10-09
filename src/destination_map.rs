@@ -287,6 +287,107 @@ pub fn get_destination_map() -> HashMap<String, String> {
         format!("{}__Future Plc/_MagBooks", BASE_PATH),
     );
 
+    // Warners
+	destination_map.insert(
+        "Bake & Decorate ".to_string(),
+        format!("{}__Warners/Bake & Decorate", BASE_PATH),
+    );
+	destination_map.insert(
+        "Battleships of WWII ".to_string(),
+        format!("{}__Warners/Battleships of WWII", BASE_PATH),
+    );
+	destination_map.insert(
+        "Birdwatch UK ".to_string(),
+        format!("{}__Warners/Birdwatch UK", BASE_PATH),
+    );
+	destination_map.insert(
+        "Coin Collector ".to_string(),
+        format!("{}__Warners/Coin Collector", BASE_PATH),
+    );
+	destination_map.insert(
+        "Collectors Gazette ".to_string(),
+        format!("{}__Warners/Collectors Gazette", BASE_PATH),
+    );
+	destination_map.insert(
+        "Diecast Collector ".to_string(),
+        format!("{}__Warners/Diecast Collector", BASE_PATH),
+    );
+	destination_map.insert(
+        "Dolls House & Miniature Scene ".to_string(),
+        format!("{}__Warners/Dolls House & Miniature Scene", BASE_PATH),
+    );
+	destination_map.insert(
+        "Family Tree UK ".to_string(),
+        format!("{}__Warners/Family Tree UK", BASE_PATH),
+    );
+	destination_map.insert(
+        "History Scotland ".to_string(),
+        format!("{}__Warners/History Scotland", BASE_PATH),
+    );
+	destination_map.insert(
+        "Iron Cross ".to_string(),
+        format!("{}__Warners/Iron Cross", BASE_PATH),
+    );
+	destination_map.insert(
+        "Land Rover Monthly ".to_string(),
+        format!("{}__Warners/Land Rover Monthly", BASE_PATH),
+    );
+	destination_map.insert(
+        "Leisure Painter ".to_string(),
+        format!("{}__Warners/Leisure Painter", BASE_PATH),
+    );
+	destination_map.insert(
+        "Master Detective ".to_string(),
+        format!("{}__Warners/Master Detective", BASE_PATH),
+    );
+	destination_map.insert(
+        "Miniature Wargames ".to_string(),
+        format!("{}__Warners/Miniature Wargames", BASE_PATH),
+    );
+	destination_map.insert(
+        "Practical Fishkeeping ".to_string(),
+        format!("{}__Warners/Practical Fishkeeping", BASE_PATH),
+    );
+	destination_map.insert(
+        "Practical Wireless ".to_string(),
+        format!("{}__Warners/Practical Wireless", BASE_PATH),
+    );
+	destination_map.insert(
+        "Scottish Field ".to_string(),
+        format!("{}__Warners/Scottish Field", BASE_PATH),
+    );
+	destination_map.insert(
+        "Stamp Collector ".to_string(),
+        format!("{}__Warners/Stamp Collector", BASE_PATH),
+    );
+	destination_map.insert(
+        "Tabletop Gaming ".to_string(),
+        format!("{}__Warners/Tabletop Gaming", BASE_PATH),
+    );
+	destination_map.insert(
+        "The Armourer ".to_string(),
+        format!("{}__Warners/The Armourer", BASE_PATH),
+    );
+	destination_map.insert(
+        "The Artist ".to_string(),
+        format!("{}__Warners/The Artist", BASE_PATH),
+    );
+	destination_map.insert(
+        "The Searcher ".to_string(),
+        format!("{}__Warners/The Searcher", BASE_PATH),
+    );
+	destination_map.insert(
+        "Toy Collectors ".to_string(),
+        format!("{}__Warners/Toy Collectors", BASE_PATH),
+    );
+	destination_map.insert(
+        "Wargames Illustrated ".to_string(),
+        format!("{}__Warners/Wargames Illustrated", BASE_PATH),
+    );
+	destination_map.insert(
+        "Writing Magazine ".to_string(),
+        format!("{}__Warners/Writing Magazine", BASE_PATH),
+    );
 
     // 더 많은 경로 추가 가능
     destination_map
