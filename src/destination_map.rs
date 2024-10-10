@@ -75,6 +75,56 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Active Interest Media/Yachts International", BASE_PATH),
 	);
 
+	// Are Media
+	destination_map.insert(
+		"Australian Gourmet Traveller ".to_string(),
+		format!("{}__Are Media/Australian Gourmet Traveller", BASE_PATH),
+	);
+	destination_map.insert(
+		"Belle ".to_string(),
+		format!("{}__Are Media/Belle", BASE_PATH),
+	);
+	destination_map.insert(
+		"Better Homes and Gardens AU ".to_string(),
+		format!("{}__Are Media/Better Homes and Gardens AU", BASE_PATH),
+	);
+	destination_map.insert(
+		"Cooking With The Australian Woman's Weekly ".to_string(),
+		format!("{}__Are Media/Cooking With The Australian Woman's Weekly", BASE_PATH),
+	);
+	destination_map.insert(
+		"Country Style ".to_string(),
+		format!("{}__Are Media/Country Style", BASE_PATH),
+	);
+	destination_map.insert(
+		"Diabetic Living ".to_string(),
+		format!("{}__Are Media/Diabetic Living", BASE_PATH),
+	);
+	destination_map.insert(
+		"Home Beautiful AU ".to_string(),
+		format!("{}__Are Media/Home Beautiful AU", BASE_PATH),
+	);
+	destination_map.insert(
+		"House & Garden AU ".to_string(),
+		format!("{}__Are Media/House & Garden AU", BASE_PATH),
+	);
+	destination_map.insert(
+		"Inside Out ".to_string(),
+		format!("{}__Are Media/Inside Out", BASE_PATH),
+	);
+	destination_map.insert(
+		"New Idea Food ".to_string(),
+		format!("{}__Are Media/New Idea Food", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Australian Woman's Weekly ".to_string(),
+		format!("{}__Are Media/The Australian Woman's Weekly", BASE_PATH),
+	);
+	destination_map.insert(
+		"Your Home and Garden ".to_string(),
+		format!("{}__Are Media/Your Home and Garden", BASE_PATH),
+	);
+
     // Future Plc
 	destination_map.insert(
 		"25 Beautiful Homes ".to_string(),
