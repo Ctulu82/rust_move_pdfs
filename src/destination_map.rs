@@ -9,6 +9,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
     // format!을 사용하여 각 경로를 문자열로 생성
     // TODO: 이름이 겹치지 않도록 확인! & 잡지사 별로 묶을지 ABC순서대로 나열할지 고민 필요.
 
+	// AAAS
+	destination_map.insert(
+		"Science 20".to_string(),
+		format!("{}__AAAS/Science", BASE_PATH),
+	);
+
 	// Active Interest Media
 	destination_map.insert(
 		"Anglers Journal ".to_string(),
@@ -73,6 +79,54 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Yachts International ".to_string(),
 		format!("{}__Active Interest Media/Yachts International", BASE_PATH),
+	);
+
+	// AFV Modeller
+	destination_map.insert(
+		"AFV Modeller ".to_string(),
+		format!("{}__AFV Modeller/AFV Modeller", BASE_PATH),
+	);
+	destination_map.insert(
+		"Air Modeller ".to_string(),
+		format!("{}__AFV Modeller/Air Modeller", BASE_PATH),
+	);
+
+	// AJ Bell Media
+	destination_map.insert(
+		"Shares ".to_string(),
+		format!("{}__AJ Bell Media/Shares", BASE_PATH),
+	);
+
+	// America’s Test Kitchen
+	destination_map.insert(
+		"Cook's Country ".to_string(),
+		format!("{}__America’s Test Kitchen/Cook's Country", BASE_PATH),
+	);
+	destination_map.insert(
+		"Cook's Illustrated ".to_string(),
+		format!("{}__America’s Test Kitchen/Cook's Illustrated", BASE_PATH),
+	);
+
+	// Anthem
+	destination_map.insert(
+		"Air Fryer Cookbook ".to_string(),
+		format!("{}__Anthem/Air Fryer Cookbook", BASE_PATH),
+	);
+	destination_map.insert(
+		"Classic Pop ".to_string(),
+		format!("{}__Anthem/Classic Pop", BASE_PATH),
+	);
+	destination_map.insert(
+		"Italia! ".to_string(),
+		format!("{}__Anthem/Italia!", BASE_PATH),
+	);
+	destination_map.insert(
+		"Vegan Food & Living ".to_string(),
+		format!("{}__Anthem/Vegan Food & Living", BASE_PATH),
+	);
+	destination_map.insert(
+		"Vintage Rock ".to_string(),
+		format!("{}__Anthem/Vintage Rock", BASE_PATH),
 	);
 
 	// Are Media
