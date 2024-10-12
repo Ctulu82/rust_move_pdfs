@@ -9,10 +9,32 @@ pub fn get_destination_map() -> HashMap<String, String> {
     // format!을 사용하여 각 경로를 문자열로 생성
     // TODO: 이름이 겹치지 않도록 확인! & 잡지사 별로 묶을지 ABC순서대로 나열할지 고민 필요.
 
+	// 5280 Publishing
+	destination_map.insert(
+		"5280 Magazine ".to_string(),
+		format!("{}__5280 Publishing/5280 Magazine", BASE_PATH),
+	);
+	
 	// AAAS
 	destination_map.insert(
 		"Science 20".to_string(),
 		format!("{}__AAAS/Science", BASE_PATH),
+	);
+
+	// AAS Sky Publishing
+	destination_map.insert(
+		"Australian Sky & Telescope ".to_string(),
+		format!("{}__AAS Sky Publishing/Australian Sky & Telescope", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sky & Telescope ".to_string(),
+		format!("{}__AAS Sky Publishing/Sky & Telescope", BASE_PATH),
+	);
+
+	// __ABK Publications
+	destination_map.insert(
+		"Australian Birdkeeper ".to_string(),
+		format!("{}__ABK Publications/Australian Birdkeeper", BASE_PATH),
 	);
 
 	// Active Interest Media
@@ -863,6 +885,834 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__H Bauer/Trail UK", BASE_PATH),
 	);
 
+	// Habari Media
+	destination_map.insert(
+		"Food & Home Entertaining ".to_string(),
+		format!("{}__Habari Media/Food & Home Entertaining", BASE_PATH),
+	);
+
+	// Hearst
+	destination_map.insert(
+		"Country Living ".to_string(),
+		format!("{}__Hearst/Country Living", BASE_PATH),
+	);
+	destination_map.insert(
+		"Delish ".to_string(),
+		format!("{}__Hearst/Delish", BASE_PATH),
+	);
+	destination_map.insert(
+		"Elle Decor ".to_string(),
+		format!("{}__Hearst/Elle Decor", BASE_PATH),
+	);
+	destination_map.insert(
+		"Elle Decor IT ".to_string(),
+		format!("{}__Hearst/Elle Decor IT", BASE_PATH),
+	);
+	destination_map.insert(
+		"Elle Decoration UK ".to_string(),
+		format!("{}__Hearst/Elle Decoration UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"Esquire ".to_string(),
+		format!("{}__Hearst/Esquire", BASE_PATH),
+	);
+	destination_map.insert(
+		"Esquire UK ".to_string(),
+		format!("{}__Hearst/Esquire UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"Food Network Magaizne ".to_string(),
+		format!("{}__Hearst/Food Network Magaizne", BASE_PATH),
+	);
+	destination_map.insert(
+		"Good Housekeeping UK ".to_string(),
+		format!("{}__Hearst/Good Housekeeping UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"Good Housekeeping US ".to_string(),
+		format!("{}__Hearst/Good Housekeeping US", BASE_PATH),
+	);
+	destination_map.insert(
+		"House Beautiful UK ".to_string(),
+		format!("{}__Hearst/House Beautiful UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"House Beautiful US ".to_string(),
+		format!("{}__Hearst/House Beautiful US", BASE_PATH),
+	);
+	destination_map.insert(
+		"Men's Health 20".to_string(),
+		format!("{}__Hearst/Men's Health", BASE_PATH),
+	);
+	destination_map.insert(
+		"Popular Mechanics ".to_string(),
+		format!("{}__Hearst/Popular Mechanics", BASE_PATH),
+	);
+	destination_map.insert(
+		"Runner's World ".to_string(),
+		format!("{}__Hearst/Runner's World", BASE_PATH),
+	);
+	destination_map.insert(
+		"Town & Country ".to_string(),
+		format!("{}__Hearst/Town & Country", BASE_PATH),
+	);
+	destination_map.insert(
+		"Veranda ".to_string(),
+		format!("{}__Hearst/Veranda", BASE_PATH),
+	);
+	destination_map.insert(
+		"Woman's Day ".to_string(),
+		format!("{}__Hearst/Woman's Day", BASE_PATH),
+	);
+
+	// HistoryNet
+	destination_map.insert(
+		"America's Civil War ".to_string(),
+		format!("{}__HistoryNet/America's Civil War", BASE_PATH),
+	);
+	destination_map.insert(
+		"American History ".to_string(),
+		format!("{}__HistoryNet/American History", BASE_PATH),
+	);
+	destination_map.insert(
+		"Aviation History ".to_string(),
+		format!("{}__HistoryNet/Aviation History", BASE_PATH),
+	);
+	destination_map.insert(
+		"Vietnam ".to_string(),
+		format!("{}__HistoryNet/Vietnam", BASE_PATH),
+	);
+	destination_map.insert(
+		"Wild West ".to_string(),
+		format!("{}__HistoryNet/Wild West", BASE_PATH),
+	);
+	destination_map.insert(
+		"World War II ".to_string(),
+		format!("{}__HistoryNet/World War II", BASE_PATH),
+	);
+
+	// Hoffman Media
+	destination_map.insert(
+		"Bake from Scratch ".to_string(),
+		format!("{}__Hoffman Media/Bake from Scratch", BASE_PATH),
+	);
+	destination_map.insert(
+		"Cooking with Paula Deen ".to_string(),
+		format!("{}__Hoffman Media/Cooking with Paula Deen", BASE_PATH),
+	);
+	destination_map.insert(
+		"Louisiana Cookin".to_string(),
+		format!("{}__Hoffman Media/Louisiana Cookin", BASE_PATH),
+	);
+	destination_map.insert(
+		"Southern Cast Iron ".to_string(),
+		format!("{}__Hoffman Media/Southern Cast Iron", BASE_PATH),
+	);
+	destination_map.insert(
+		"Southern Home ".to_string(),
+		format!("{}__Hoffman Media/Southern Home", BASE_PATH),
+	);
+	destination_map.insert(
+		"Southern Lady ".to_string(),
+		format!("{}__Hoffman Media/Southern Lady", BASE_PATH),
+	);
+	destination_map.insert(
+		"Taste of the South ".to_string(),
+		format!("{}__Hoffman Media/Taste of the South", BASE_PATH),
+	);
+	destination_map.insert(
+		"TeaTime ".to_string(),
+		format!("{}__Hoffman Media/TeaTime", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Cottage Journal ".to_string(),
+		format!("{}__Hoffman Media/The Cottage Journal", BASE_PATH),
+	);
+	destination_map.insert(
+		"Victoria ".to_string(),
+		format!("{}__Hoffman Media/Victoria", BASE_PATH),
+	);
+
+	// IDG
+	destination_map.insert(
+		"Android Advisor ".to_string(),
+		format!("{}__IDG/Android Advisor", BASE_PATH),
+	);
+	destination_map.insert(
+		"iPad & iPhone User ".to_string(),
+		format!("{}__IDG/iPad & iPhone User", BASE_PATH),
+	);
+	destination_map.insert(
+		"Macworld 20".to_string(),
+		format!("{}__IDG/Macworld", BASE_PATH),
+	);
+	destination_map.insert(
+		"Macworld UK ".to_string(),
+		format!("{}__IDG/Macworld UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"PCWorld ".to_string(),
+		format!("{}__IDG/PCWorld", BASE_PATH),
+	);
+	destination_map.insert(
+		"Tech Advisor ".to_string(),
+		format!("{}__IDG/Tech Advisor", BASE_PATH),
+	);
+
+	// IEEE
+	destination_map.insert(
+		"IEEE ".to_string(),
+		format!("{}__IEEE", BASE_PATH),	// TODO: 세분화 필요.
+	);
+
+	// Immediate
+	destination_map.insert(
+		"BBC Easy Cook ".to_string(),
+		format!("{}__Immediate/BBC Easy Cook", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC Gardeners' World ".to_string(),
+		format!("{}__Immediate/BBC Gardeners' World", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC Good Food 20".to_string(),
+		format!("{}__Immediate/BBC Good Food", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC Good Food ME ".to_string(),
+		format!("{}__Immediate/BBC Good Food ME", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC History ".to_string(),
+		format!("{}__Immediate/BBC History", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC Music ".to_string(),
+		format!("{}__Immediate/BBC Music Magazine", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC Science Focus ".to_string(),
+		format!("{}__Immediate/BBC Science Focus", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC Wildlife ".to_string(),
+		format!("{}__Immediate/BBC Wildlife", BASE_PATH),
+	);
+	destination_map.insert(
+		"Gardens Illustrated ".to_string(),
+		format!("{}__Immediate/Gardens Illustrated", BASE_PATH),
+	);
+	destination_map.insert(
+		"Home Style UK ".to_string(),
+		format!("{}__Immediate/Home Style UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"Homes & Antiques ".to_string(),
+		format!("{}__Immediate/Homes & Antiques", BASE_PATH),
+	);
+	destination_map.insert(
+		"Olive ".to_string(),
+		format!("{}__Immediate/Olive", BASE_PATH),
+	);
+	destination_map.insert(
+		"Radio Times ".to_string(),
+		format!("{}__Immediate/Radio Times", BASE_PATH),
+	);
+	destination_map.insert(
+		"Who Do You Think You Are ".to_string(),
+		format!("{}__Immediate/Who Do You Think You Are", BASE_PATH),
+	);
+	destination_map.insert(
+		"Your Home UK ".to_string(),
+		format!("{}__Immediate/Your Home UK", BASE_PATH),
+	);
+
+	// International Artist Publishing
+	destination_map.insert(
+		"American Art Collector ".to_string(),
+		format!("{}__International Artist Publishing/American Art Collector", BASE_PATH),
+	);
+	destination_map.insert(
+		"American Fine Art ".to_string(),
+		format!("{}__International Artist Publishing/American Fine Art", BASE_PATH),
+	);
+	destination_map.insert(
+		"International Artist ".to_string(),
+		format!("{}__International Artist Publishing/International Artist", BASE_PATH),
+	);
+	destination_map.insert(
+		"Native American Art ".to_string(),
+		format!("{}__International Artist Publishing/Native American Art", BASE_PATH),
+	);
+	destination_map.insert(
+		"Western Art Collector ".to_string(),
+		format!("{}__International Artist Publishing/Western Art Collector", BASE_PATH),
+	);
+
+	// KCK Media
+	destination_map.insert(
+		"audioXpress ".to_string(),
+		format!("{}__KCK Media/audioXpress", BASE_PATH),
+	);
+	destination_map.insert(
+		"Circuit Cellar ".to_string(),
+		format!("{}__KCK Media/Circuit Cellar", BASE_PATH),
+	);
+
+	// Kalmbach Media
+	destination_map.insert(
+		"Astronomy 20".to_string(),
+		format!("{}__Kalmbach Media/Astronomy", BASE_PATH),
+	);
+	destination_map.insert(
+		"Discover 20".to_string(),
+		format!("{}__Kalmbach Media/Discover", BASE_PATH),
+	);
+	destination_map.insert(
+		"FineScale Modeler ".to_string(),
+		format!("{}__Kalmbach Media/FineScale Modeler", BASE_PATH),
+	);
+
+	// Karwansaray Publishers
+	destination_map.insert(
+		"Ancient History ".to_string(),
+		format!("{}__Karwansaray Publishers/Ancient History", BASE_PATH),
+	);
+	destination_map.insert(
+		"Ancient Warfare ".to_string(),
+		format!("{}__Karwansaray Publishers/Ancient Warfare", BASE_PATH),
+	);
+	destination_map.insert(
+		"Medieval World ".to_string(),
+		format!("{}__Karwansaray Publishers/Medieval World", BASE_PATH),
+	);
+	destination_map.insert(
+		"Wargames Soldiers & Strategy Magazine ".to_string(),
+		format!("{}__Karwansaray Publishers/Wargames Soldiers & Strategy Magazine", BASE_PATH),
+	);
+
+	// Kelsey
+	destination_map.insert(
+		"220 Triathlon ".to_string(),
+		format!("{}__Kelsey/220 Triathlon", BASE_PATH),
+	);
+	destination_map.insert(
+		"Amateur Gardening ".to_string(),
+		format!("{}__Kelsey/Amateur Gardening", BASE_PATH),
+	);
+	destination_map.insert(
+		"Amateur Photographer ".to_string(),
+		format!("{}__Kelsey/Amateur Photographer", BASE_PATH),
+	);
+	destination_map.insert(
+		"Boxing News ".to_string(),
+		format!("{}__Kelsey/Boxing News", BASE_PATH),
+	);
+	destination_map.insert(
+		"ClayCraft ".to_string(),
+		format!("{}__Kelsey/ClayCraft", BASE_PATH),
+	);
+	destination_map.insert(
+		"Coast 20".to_string(),
+		format!("{}__Kelsey/Coast", BASE_PATH),
+	);
+	destination_map.insert(
+		"Farm Machinery ".to_string(),
+		format!("{}__Kelsey/Farm Machinery", BASE_PATH),
+	);
+	destination_map.insert(
+		"Men's Fitness ".to_string(),
+		format!("{}__Kelsey/Men's Fitness", BASE_PATH),
+	);
+	destination_map.insert(
+		"Old Glory ".to_string(),
+		format!("{}__Kelsey/Old Glory", BASE_PATH),
+	);
+	destination_map.insert(
+		"Psychologies ".to_string(),
+		format!("{}__Kelsey/Psychologies", BASE_PATH),
+	);
+	destination_map.insert(
+		"Ships Monthly ".to_string(),
+		format!("{}__Kelsey/Ships Monthly", BASE_PATH),
+	);
+	destination_map.insert(
+		"Stuff ".to_string(),
+		format!("{}__Kelsey/Stuff", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Country Smallholder ".to_string(),
+		format!("{}__Kelsey/The Country Smallholder", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Great Outdoors ".to_string(),
+		format!("{}__Kelsey/The Great Outdoors", BASE_PATH),
+	);
+	destination_map.insert(
+		"Uncut ".to_string(),
+		format!("{}__Kelsey/Uncut", BASE_PATH),
+	);
+	destination_map.insert(
+		"World Soccer ".to_string(),
+		format!("{}__Kelsey/World Soccer", BASE_PATH),
+	);
+	destination_map.insert(
+		"World of Interiors ".to_string(),
+		format!("{}__Kelsey/World of Interiors", BASE_PATH),
+	);
+	destination_map.insert(
+		"World of Ships ".to_string(),
+		format!("{}__Kelsey/World of Ships", BASE_PATH),
+	);
+
+	// Key
+	destination_map.insert(
+		"Aeroplane #".to_string(),
+		format!("{}__Key/Aeroplane", BASE_PATH),
+	);
+	destination_map.insert(
+		"Air International ".to_string(),
+		format!("{}__Key/Air International", BASE_PATH),
+	);
+	destination_map.insert(
+		"AirForces Monthly ".to_string(),
+		format!("{}__Key/AirForces Monthly", BASE_PATH),
+	);
+	destination_map.insert(
+		"Airfix Model World ".to_string(),
+		format!("{}__Key/Airfix Model World", BASE_PATH),
+	);
+	destination_map.insert(
+		"Aviation Archive ".to_string(),
+		format!("{}__Key/Aviation Archive", BASE_PATH),
+	);
+	destination_map.insert(
+		"Aviation News ".to_string(),
+		format!("{}__Key/Aviation News", BASE_PATH),
+	);
+	destination_map.insert(
+		"Britain at War ".to_string(),
+		format!("{}__Key/Britain at War", BASE_PATH),
+	);
+	destination_map.insert(
+		"Classic Military Vehicle ".to_string(),
+		format!("{}__Key/Classic Military Vehicle", BASE_PATH),
+	);
+	destination_map.insert(
+		"Combat Aircraft ".to_string(),
+		format!("{}__Key/Combat Aircraft", BASE_PATH),
+	);
+	destination_map.insert(
+		"FlyPast ".to_string(),
+		format!("{}__Key/FlyPast", BASE_PATH),
+	);
+
+	// Mark Allen Group
+	destination_map.insert(
+		"Aerospace Testing International ".to_string(),
+		format!("{}__Mark Allen Group/Aerospace Testing International", BASE_PATH),
+	);
+	destination_map.insert(
+		"Gramophone ".to_string(),
+		format!("{}__Mark Allen Group/Gramophone", BASE_PATH),
+	);
+	destination_map.insert(
+		"Jazzwise ".to_string(),
+		format!("{}__Mark Allen Group/Jazzwise", BASE_PATH),
+	);
+	destination_map.insert(
+		"New Electronics ".to_string(),
+		format!("{}__Mark Allen Group/New Electronics", BASE_PATH),
+	);
+	destination_map.insert(
+		"Songlines ".to_string(),
+		format!("{}__Mark Allen Group/Songlines", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Engineer ".to_string(),
+		format!("{}__Mark Allen Group/The Engineer", BASE_PATH),
+	);
+
+	// Media Group PTE
+	destination_map.insert(
+		"Epicure SG ".to_string(),
+		format!("{}__Media Group PTE/Epicure SG", BASE_PATH),
+	);
+	destination_map.insert(
+		"SquareRooms ".to_string(),
+		format!("{}__Media Group PTE/SquareRooms", BASE_PATH),
+	);
+
+	// Meredith
+	destination_map.insert(
+		"Allrecipes ".to_string(),
+		format!("{}__Meredith/Allrecipes", BASE_PATH),
+	);
+	destination_map.insert(
+		"Better Homes & Gardens ".to_string(),
+		format!("{}__Meredith/Better Homes & Gardens", BASE_PATH),
+	);
+	destination_map.insert(
+		"Coastal Living ".to_string(),
+		format!("{}__Meredith/Coastal Living", BASE_PATH),
+	);
+	destination_map.insert(
+		"Cooking Light ".to_string(),
+		format!("{}__Meredith/Cooking Light", BASE_PATH),
+	);
+	destination_map.insert(
+		"EatingWell ".to_string(),
+		format!("{}__Meredith/EatingWell", BASE_PATH),
+	);
+	destination_map.insert(
+		"Food & Wine ".to_string(),
+		format!("{}__Meredith/Food & Wine", BASE_PATH),
+	);
+	destination_map.insert(
+		"Modern Farmhouse Style ".to_string(),
+		format!("{}__Meredith/Modern Farmhouse Style", BASE_PATH),
+	);
+	destination_map.insert(
+		"Real Simple ".to_string(),
+		format!("{}__Meredith/Real Simple", BASE_PATH),
+	);
+	destination_map.insert(
+		"Successful Farming ".to_string(),
+		format!("{}__Meredith/Successful Farming", BASE_PATH),
+	);
+
+	// Mindfield Digital
+	destination_map.insert(
+		"AppleMagazine ".to_string(),
+		format!("{}__Mindfield Digital/AppleMagazine", BASE_PATH),
+	);
+	destination_map.insert(
+		"TechLife News ".to_string(),
+		format!("{}__Mindfield Digital/TechLife News", BASE_PATH),
+	);
+
+	// Morton
+	destination_map.insert(
+		"Best of British ".to_string(),
+		format!("{}__Morton/Best of British", BASE_PATH),
+	);
+	destination_map.insert(
+		"Kitchen Garden ".to_string(),
+		format!("{}__Morton/Kitchen Garden", BASE_PATH),
+	);
+	destination_map.insert(
+		"Model Boats ".to_string(),
+		format!("{}__Morton/Model Boats", BASE_PATH),
+	);
+
+	// NetMag Media
+	destination_map.insert(
+		"Architects Datafile ".to_string(),
+		format!("{}__NetMag Media/Architects Datafile", BASE_PATH),
+	);
+	destination_map.insert(
+		"Housebuilder & Developer ".to_string(),
+		format!("{}__NetMag Media/Housebuilder & Developer", BASE_PATH),
+	);
+	destination_map.insert(
+		"Selfbuilder + Homemaker ".to_string(),
+		format!("{}__NetMag Media/Selfbuilder + Homemaker", BASE_PATH),
+	);
+
+	// News Life Media
+	destination_map.insert(
+		"Delicious AU ".to_string(),
+		format!("{}__News Life Media/Delicious AU", BASE_PATH),
+	);
+	destination_map.insert(
+		"Taste.com.au ".to_string(),
+		format!("{}__News Life Media/Taste.com.au", BASE_PATH),
+	);
+	destination_map.insert(
+		"Vogue Living AU ".to_string(),
+		format!("{}__News Life Media/Vogue Living AU", BASE_PATH),
+	);
+
+	// Nextmedia
+	destination_map.insert(
+		"Frankie ".to_string(),
+		format!("{}__Nextmedia/Frankie", BASE_PATH),
+	);
+	destination_map.insert(
+		"Gardening Australia ".to_string(),
+		format!("{}__Nextmedia/Gardening Australia", BASE_PATH),
+	);
+	destination_map.insert(
+		"Healthy Food Guide AU ".to_string(),
+		format!("{}__Nextmedia/Healthy Food Guide AU", BASE_PATH),
+	);
+	destination_map.insert(
+		"Science Illustrated AU ".to_string(),
+		format!("{}__Nextmedia/Science Illustrated AU", BASE_PATH),
+	);
+
+	// Pam Communications
+	destination_map.insert(
+		"Electronic Sound ".to_string(),
+		format!("{}__Pam Communications/Electronic Sound", BASE_PATH),
+	);
+
+	// Penske Media Corp.
+	destination_map.insert(
+		"Art in America ".to_string(),
+		format!("{}__Penske Media Corp./Art in America", BASE_PATH),
+	);
+	destination_map.insert(
+		"Artforum ".to_string(),
+		format!("{}__Penske Media Corp./Artforum", BASE_PATH),
+	);
+	destination_map.insert(
+		"Billboard ".to_string(),
+		format!("{}__Penske Media Corp./Billboard", BASE_PATH),
+	);
+	destination_map.insert(
+		"Rolling Stone 20".to_string(),
+		format!("{}__Penske Media Corp./Rolling Stone", BASE_PATH),
+	);
+	destination_map.insert(
+		"Rolling Stone ANZ ".to_string(),
+		format!("{}__Penske Media Corp./Rolling Stone ANZ", BASE_PATH),
+	);
+	destination_map.insert(
+		"Rolling Stone UK ".to_string(),
+		format!("{}__Penske Media Corp./Rolling Stone UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Hollywood Reporter ".to_string(),
+		format!("{}__Penske Media Corp./The Hollywood Reporter", BASE_PATH),
+	);
+
+	// Prime Creative Media
+	destination_map.insert(
+		"BeanScene ".to_string(),
+		format!("{}__Prime Creative Media/BeanScene", BASE_PATH),
+	);
+
+	// Project M Group
+	destination_map.insert(
+		"Goldmine ".to_string(),
+		format!("{}__Project M Group/Goldmine", BASE_PATH),
+	);
+	destination_map.insert(
+		"Revolver ".to_string(),
+		format!("{}__Project M Group/Revolver", BASE_PATH),
+	);
+
+	// Raspberry Pi Press
+	destination_map.insert(
+		"Hello World ".to_string(),
+		format!("{}__Raspberry Pi Press/Hello World", BASE_PATH),
+	);
+	destination_map.insert(
+		"The MagPi ".to_string(),
+		format!("{}__Raspberry Pi Press/The MagPi", BASE_PATH),
+	);
+
+	// Recurrent Ventures
+	destination_map.insert(
+		"Dwell ".to_string(),
+		format!("{}__Recurrent Ventures/Dwell", BASE_PATH),
+	);
+	destination_map.insert(
+		"Outdoor Life ".to_string(),
+		format!("{}__Recurrent Ventures/Outdoor Life", BASE_PATH),
+	);
+
+	// SPH Media
+	destination_map.insert(
+		"HWM SG ".to_string(),
+		format!("{}__SPH Media/HWM SG", BASE_PATH),
+	);
+	destination_map.insert(
+		"Home & Decor SG ".to_string(),
+		format!("{}__SPH Media/Home & Decor SG", BASE_PATH),
+	);
+
+	// Scan Magazine
+	destination_map.insert(
+		"Discover CleanTech ".to_string(),
+		format!("{}__Scan Magazine/Discover CleanTech", BASE_PATH),
+	);
+	destination_map.insert(
+		"Discover Germany ".to_string(),
+		format!("{}__Scan Magazine/Discover Germany", BASE_PATH),
+	);
+
+	// Sigma Xi
+	destination_map.insert(
+		"American Scientist ".to_string(),
+		format!("{}__Sigma Xi/American Scientist", BASE_PATH),
+	);
+
+	// Silverback Publishing
+	destination_map.insert(
+		"Blitzed ".to_string(),
+		format!("{}__Silverback Publishing/Blitzed", BASE_PATH),
+	);
+	destination_map.insert(
+		"Blocks #".to_string(),
+		format!("{}__Silverback Publishing/Blocks", BASE_PATH),
+	);
+	destination_map.insert(
+		"Shindig ".to_string(),
+		format!("{}__Silverback Publishing/Shindig", BASE_PATH),
+	);
+
+	// Sola Group
+	destination_map.insert(
+		"Kitchen & Bath Design News ".to_string(),
+		format!("{}__Sola Group/Kitchen & Bath Design News", BASE_PATH),
+	);
+	destination_map.insert(
+		"Residential Design ".to_string(),
+		format!("{}__Sola Group/Residential Design", BASE_PATH),
+	);
+
+	// Stella Novus
+	destination_map.insert(
+		"Ancient Origins Magazine ".to_string(),
+		format!("{}__Stella Novus/Ancient Origins Magazine", BASE_PATH),
+	);
+
+	// Sunray Publications
+	destination_map.insert(
+		"Artist's Drawing & Inspiration ".to_string(),
+		format!("{}__Sunray Publications/Artist's Drawing & Inspiration", BASE_PATH),
+	);
+	destination_map.insert(
+		"Artist's Palette ".to_string(),
+		format!("{}__Sunray Publications/Artist's Palette", BASE_PATH),
+	);
+	destination_map.insert(
+		"Australian How to Paint ".to_string(),
+		format!("{}__Sunray Publications/Australian How to Paint", BASE_PATH),
+	);
+	
+	// TEN Publishing
+	destination_map.insert(
+		"Recoil ".to_string(),
+		format!("{}__TEN Publishing/Recoil", BASE_PATH),
+	);
+
+	// The Chelsea Magazine Company
+	destination_map.insert(
+		"Artists & Illustrators ".to_string(),
+		format!("{}__The Chelsea Magazine Company/Artists & Illustrators", BASE_PATH),
+	);
+	destination_map.insert(
+		"Britain 20".to_string(),
+		format!("{}__The Chelsea Magazine Company/Britain", BASE_PATH),
+	);
+	destination_map.insert(
+		"Classic Boat ".to_string(),
+		format!("{}__The Chelsea Magazine Company/Classic Boat", BASE_PATH),
+	);
+	destination_map.insert(
+		"Discover Britain ".to_string(),
+		format!("{}__The Chelsea Magazine Company/Discover Britain", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sailing Today ".to_string(),
+		format!("{}__The Chelsea Magazine Company/Sailing Today", BASE_PATH),
+	);
+	destination_map.insert(
+		"The English Garden ".to_string(),
+		format!("{}__The Chelsea Magazine Company/The English Garden", BASE_PATH),
+	);
+	destination_map.insert(
+		"The English Home ".to_string(),
+		format!("{}__The Chelsea Magazine Company/The English Home", BASE_PATH),
+	);
+	destination_map.insert(
+		"The London Magazine ".to_string(),
+		format!("{}__The Chelsea Magazine Company/The London Magazine", BASE_PATH),
+	);
+
+	// The Economist Newspaper
+	destination_map.insert(
+		"Economist Intelligence Unit ".to_string(),
+		format!("{}__The Economist Newspaper/Economist Intelligence Unit", BASE_PATH),
+	);
+
+	// The Nation Company
+	destination_map.insert(
+		"The Nation ".to_string(),
+		format!("{}__The Nation Company/The Nation", BASE_PATH),
+	);
+
+	// The New York Times Company
+	destination_map.insert(
+		"The New York Times Arts & Leisure ".to_string(),
+		format!("{}__The New York Times Company/The New York Times Arts & Leisure", BASE_PATH),
+	);
+	destination_map.insert(
+		"The New York Times Book Review ".to_string(),
+		format!("{}__The New York Times Company/The New York Times Book Review", BASE_PATH),
+	);
+	destination_map.insert(
+		"The New York Times Magazine ".to_string(),
+		format!("{}__The New York Times Company/The New York Times Magazine", BASE_PATH),
+	);
+	destination_map.insert(
+		"The New York Times Style Magazine ".to_string(),
+		format!("{}__The New York Times Company/The New York Times Style Magazine", BASE_PATH),
+	);
+
+	// Times Media
+	destination_map.insert(
+		"The Sunday Times Culture ".to_string(),
+		format!("{}__Times Media/The Sunday Times Culture", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Sunday Times Magazine ".to_string(),
+		format!("{}__Times Media/The Sunday Times Magazine", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Sunday Times Style ".to_string(),
+		format!("{}__Times Media/The Sunday Times Style", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Times Magazine ".to_string(),
+		format!("{}__Times Media/The Times Magazine", BASE_PATH),
+	);
+
+	// Trusted Media Brands
+	destination_map.insert(
+		"Birds & Blooms ".to_string(),
+		format!("{}__Trusted Media Brands/Birds & Blooms", BASE_PATH),
+	);
+	destination_map.insert(
+		"Taste of Home ".to_string(),
+		format!("{}__Trusted Media Brands/Taste of Home", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Family Handyman ".to_string(),
+		format!("{}__Trusted Media Brands/The Family Handyman", BASE_PATH),
+	);
+
+	// TVA
+	destination_map.insert(
+		"Canadian Living ".to_string(),
+		format!("{}__TVA/Canadian Living", BASE_PATH),
+	);
+
+	// Universal Media Co.
+	destination_map.insert(
+		"Australian Country ".to_string(),
+		format!("{}__Universal Media Co./Australian Country", BASE_PATH),
+	);
+
+	// Wanderlust Travel Media
+	destination_map.insert(
+		"Wanderlust ".to_string(),
+		format!("{}__Wanderlust Travel Media/Wanderlust", BASE_PATH),
+	);
+	
     // Warners
 	destination_map.insert(
 		"Bake & Decorate ".to_string(),
@@ -964,6 +1814,19 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Writing Magazine ".to_string(),
 		format!("{}__Warners/Writing Magazine", BASE_PATH),
 	);
+
+	// WTWH Media
+	destination_map.insert(
+		"Design World ".to_string(),
+		format!("{}__WTWH Media/Design World", BASE_PATH),
+	);
+
+/*
+	destination_map.insert(
+		"abcd ".to_string(),
+		format!("{}__abc/abcd", BASE_PATH),
+	);
+*/
 
     // 더 많은 경로 추가 가능
     destination_map
