@@ -1370,7 +1370,7 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__H Bauer/Mojo", BASE_PATH),
 	);
 	destination_map.insert(
-		"Trail UK ".to_string(),
+		"Trail UK".to_string(),
 		format!("{}__H Bauer/Trail UK", BASE_PATH),
 	);
 
@@ -1390,7 +1390,7 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Hearst/Delish", BASE_PATH),
 	);
 	destination_map.insert(
-		"Elle Decor ".to_string(),
+		"Elle Decor 20".to_string(),
 		format!("{}__Hearst/Elle Decor", BASE_PATH),
 	);
 	destination_map.insert(
@@ -1638,16 +1638,6 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__International Artist Publishing/Western Art Collector", BASE_PATH),
 	);
 
-	// KCK Media
-	destination_map.insert(
-		"audioXpress ".to_string(),
-		format!("{}__KCK Media/audioXpress", BASE_PATH),
-	);
-	destination_map.insert(
-		"Circuit Cellar ".to_string(),
-		format!("{}__KCK Media/Circuit Cellar", BASE_PATH),
-	);
-
 	// Kalmbach Media
 	destination_map.insert(
 		"Astronomy 20".to_string(),
@@ -1681,6 +1671,16 @@ pub fn get_destination_map() -> HashMap<String, String> {
 			"{}__Karwansaray Publishers/Wargames Soldiers & Strategy Magazine",
 			BASE_PATH
 		),
+	);
+
+	// KCK Media
+	destination_map.insert(
+		"audioXpress ".to_string(),
+		format!("{}__KCK Media/audioXpress", BASE_PATH),
+	);
+	destination_map.insert(
+		"Circuit Cellar ".to_string(),
+		format!("{}__KCK Media/Circuit Cellar", BASE_PATH),
 	);
 
 	// Kelsey
