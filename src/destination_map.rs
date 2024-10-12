@@ -31,10 +31,28 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__AAS Sky Publishing/Sky & Telescope", BASE_PATH),
 	);
 
-	// __ABK Publications
+	// ABK Publications
 	destination_map.insert(
 		"Australian Birdkeeper ".to_string(),
 		format!("{}__ABK Publications/Australian Birdkeeper", BASE_PATH),
+	);
+
+	// Abode Publishing
+	destination_map.insert(
+		"Abode2 ".to_string(),
+		format!("{}__Abode Publishing/Abode2", BASE_PATH),
+	);
+
+	// ACC Art Books
+	destination_map.insert(
+		"Antique Collecting ".to_string(),
+		format!("{}__ACC Art Books/Antique Collecting", BASE_PATH),
+	);
+
+	// Aceville Publications
+	destination_map.insert(
+		"What Franchise ".to_string(),
+		format!("{}__Aceville Publications/What Franchise", BASE_PATH),
 	);
 
 	// Active Interest Media
@@ -61,6 +79,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Fine Homebuilding ".to_string(),
 		format!("{}__Active Interest Media/Fine Homebuilding", BASE_PATH),
+	);
+	destination_map.insert(
+		"Garden Gate ".to_string(),
+		format!("{}__Active Interest Media/Garden Gate", BASE_PATH),
 	);
 	destination_map.insert(
 		"Kovels Antique Trader ".to_string(),
@@ -103,6 +125,40 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Active Interest Media/Yachts International", BASE_PATH),
 	);
 
+	// Adirondack Explorer
+	destination_map.insert(
+		"Adirondack Explorer ".to_string(),
+		format!("{}__Adirondack Explorer/Adirondack Explorer", BASE_PATH),
+	);
+
+	// Adirondack Life
+	destination_map.insert(
+		"Adirondack Life ".to_string(),
+		format!("{}__Adirondack Life/Adirondack Life", BASE_PATH),
+	);
+
+	// Adventure Entertainment
+	destination_map.insert(
+		"Trail Run ANZ ".to_string(),
+		format!("{}__Adventure Entertainment/Trail Run ANZ", BASE_PATH),
+	);
+	destination_map.insert(
+		"Wild #".to_string(),
+		format!("{}__Adventure Entertainment/Wild", BASE_PATH),
+	);
+
+	// AFAR
+	destination_map.insert(
+		"AFAR ".to_string(),
+		format!("{}__AFAR/AFAR", BASE_PATH),
+	);
+
+	// After Dinner Conversation
+	destination_map.insert(
+		"After Dinner Conversation ".to_string(),
+		format!("{}__After Dinner Conversation/After Dinner Conversation", BASE_PATH),
+	);
+
 	// AFV Modeller
 	destination_map.insert(
 		"AFV Modeller ".to_string(),
@@ -113,10 +169,46 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__AFV Modeller/Air Modeller", BASE_PATH),
 	);
 
+	// Agriconnect
+	destination_map.insert(
+		"Farmers Guardian ".to_string(),
+		format!("{}__Agriconnect/Farmers Guardian", BASE_PATH),
+	);
+
+	// AIAA
+	destination_map.insert(
+		"Aerospace America ".to_string(),
+		format!("{}__AIAA/Aerospace America", BASE_PATH),
+	);
+
+	// AIM Communications
+	destination_map.insert(
+		"American Cake Decorating ".to_string(),
+		format!("{}__AIM Communications/American Cake Decorating", BASE_PATH),
+	);
+
+	// Air & Space Forces Association
+	destination_map.insert(
+		"Air & Space Forces ".to_string(),
+		format!("{}__Air & Space Forces Association/Air & Space Forces", BASE_PATH),
+	);
+
+	// Air Age Media
+	destination_map.insert(
+		"Flight Journal ".to_string(),
+		format!("{}__Air Age Media/Flight Journal", BASE_PATH),
+	);
+
 	// AJ Bell Media
 	destination_map.insert(
 		"Shares ".to_string(),
 		format!("{}__AJ Bell Media/Shares", BASE_PATH),
+	);
+
+	// Alpine Publishing Group
+	destination_map.insert(
+		"Denver Life ".to_string(),
+		format!("{}__Alpine Publishing Group/Denver Life", BASE_PATH),
 	);
 
 	// America’s Test Kitchen
@@ -129,6 +221,83 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__America’s Test Kitchen/Cook's Illustrated", BASE_PATH),
 	);
 
+	// American Chess Magazine
+	destination_map.insert(
+		"American Chess Magazine ".to_string(),
+		format!("{}__American Chess Magazine/American Chess Magazine", BASE_PATH),
+	);
+
+	// American Craft Council
+	destination_map.insert(
+		"American Craft ".to_string(),
+		format!("{}__American Craft Council/American Craft", BASE_PATH),
+	);
+
+	// American Library Association
+	destination_map.insert(
+		"Booklist 20".to_string(),
+		format!("{}__American Library Association/Booklist", BASE_PATH),
+	);
+	destination_map.insert(
+		"Booklist Reader ".to_string(),
+		format!("{}__American Library Association/Booklist Reader", BASE_PATH),
+	);
+
+	// American Society of Landscape Architects
+	destination_map.insert(
+		"Landscape Architecture Magazine ".to_string(),
+		format!(
+			"{}__American Society of Landscape Architects/Landscape Architecture Magazine",
+			BASE_PATH
+		),
+	);
+
+	// America’s Test Kitchen
+	destination_map.insert(
+		"Cook's Country ".to_string(),
+		format!("{}__America’s Test Kitchen/Cook's Country", BASE_PATH),
+	);
+	destination_map.insert(
+		"Cook's Illustrated ".to_string(),
+		format!("{}__America’s Test Kitchen/Cook's Illustrated", BASE_PATH),
+	);
+
+	// Animation Magazine
+	destination_map.insert(
+		"Animation Magazine ".to_string(),
+		format!("{}__Animation Magazine/Animation Magazine", BASE_PATH),
+	);
+
+	// Anja Publications
+	destination_map.insert(
+		"Philosophy Now ".to_string(),
+		format!("{}__Anja Publications/Philosophy Now", BASE_PATH),
+	);
+
+	// Annex Business Media
+	destination_map.insert(
+		"Design Engineering ".to_string(),
+		format!("{}__Annex Business Media/Design Engineering", BASE_PATH),
+	);
+	destination_map.insert(
+		"Electronic Products & Technology ".to_string(),
+		format!("{}__Annex Business Media/Electronic Products & Technology", BASE_PATH),
+	);
+	destination_map.insert(
+		"Manufacturing Automation ".to_string(),
+		format!("{}__Annex Business Media/Manufacturing Automation", BASE_PATH),
+	);
+	destination_map.insert(
+		"Wings 20".to_string(),
+		format!("{}__Annex Business Media/Wings", BASE_PATH),
+	);
+
+	// Annie's
+	destination_map.insert(
+		"Country Sampler ".to_string(),
+		format!("{}__Annie's/Country Sampler", BASE_PATH),
+	);
+
 	// Anthem
 	destination_map.insert(
 		"Air Fryer Cookbook ".to_string(),
@@ -137,6 +306,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Classic Pop ".to_string(),
 		format!("{}__Anthem/Classic Pop", BASE_PATH),
+	);
+	destination_map.insert(
+		"Gluten-Free Cookbook ".to_string(),
+		format!("{}__Anthem/Gluten-Free Cookbook", BASE_PATH),
 	);
 	destination_map.insert(
 		"Italia! ".to_string(),
@@ -155,6 +328,18 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Archaeology 2".to_string(),
 		format!("{}__Archaeological Institute of America/Archaeology", BASE_PATH),
+	);
+
+	// Archetech Media
+	destination_map.insert(
+		"Archetech ".to_string(),
+		format!("{}__Archetech Media/Archetech", BASE_PATH),
+	);
+
+	// Architectural Woodwork Institute
+	destination_map.insert(
+		"Design Solutions ".to_string(),
+		format!("{}__Architectural Woodwork Institute/Design Solutions", BASE_PATH),
 	);
 
 	// Architecture Media
@@ -205,6 +390,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Are Media/Diabetic Living", BASE_PATH),
 	);
 	destination_map.insert(
+		"Gourmet Traveller AU ".to_string(),
+		format!("{}__Are Media/Gourmet Traveller AU", BASE_PATH),
+	);
+	destination_map.insert(
 		"Home Beautiful AU ".to_string(),
 		format!("{}__Are Media/Home Beautiful AU", BASE_PATH),
 	);
@@ -228,6 +417,60 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Your Home and Garden ".to_string(),
 		format!("{}__Are Media/Your Home and Garden", BASE_PATH),
 	);
+	destination_map.insert(
+		"Your Home and Garden NZ ".to_string(),
+		format!("{}__Are Media/Your Home and Garden NZ", BASE_PATH),
+	);
+
+	// Art & Antiques World Wide Media
+	destination_map.insert(
+		"Art & Antiques ".to_string(),
+		format!("{}__Art & Antiques World Wide Media/Art & Antiques", BASE_PATH),
+	);
+
+	// Art Edited
+	destination_map.insert(
+		"Art Collector ".to_string(),
+		format!("{}__Art Edited/Art Collector", BASE_PATH),
+	);
+	destination_map.insert(
+		"Art Edit ".to_string(),
+		format!("{}__Art Edited/Art Edit", BASE_PATH),
+	);
+
+	// Art Media
+	destination_map.insert(
+		"Art in America ".to_string(),
+		format!("{}__Art Media/Art in America", BASE_PATH),
+	);
+
+	// Art New Zealand
+	destination_map.insert(
+		"Art New Zealand ".to_string(),
+		format!("{}__Art New Zealand/Art New Zealand", BASE_PATH),
+	);
+
+	// ArtAsiaPacific Foundation
+	destination_map.insert(
+		"ArtAsiaPacific ".to_string(),
+		format!("{}__ArtAsiaPacific Foundation/ArtAsiaPacific", BASE_PATH),
+	);
+
+	// ArtReview
+	destination_map.insert(
+		"ArtReview 20".to_string(),
+		format!("{}__ArtReview/ArtReview", BASE_PATH),
+	);
+	destination_map.insert(
+		"ArtReview Asia ".to_string(),
+		format!("{}__ArtReview/ArtReview Asia", BASE_PATH),
+	);
+
+	// ArtTour International
+	destination_map.insert(
+		"ArtTour International ".to_string(),
+		format!("{}__ArtTour International/ArtTour International", BASE_PATH),
+	);
 
 	// Artichoke
 	destination_map.insert(
@@ -237,6 +480,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Grow Your Own ".to_string(),
 		format!("{}__Artichoke/Grow Your Own", BASE_PATH),
+	);
+	destination_map.insert(
+		"Speciality Food ".to_string(),
+		format!("{}__Artichoke/Speciality Food", BASE_PATH),
 	);
 	destination_map.insert(
 		"Teach Primary ".to_string(),
@@ -250,11 +497,113 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Teach Secondary ".to_string(),
 		format!("{}__Artichoke/Teach Secondary", BASE_PATH),
 	);
+	destination_map.insert(
+		"What Franchise ".to_string(),
+		format!("{}__Artichoke/What Franchise", BASE_PATH),
+	);
+
+	// Artists Down Under
+	destination_map.insert(
+		"Artists Down Under ".to_string(),
+		format!("{}__Artists Down Under/Artists Down Under", BASE_PATH),
+	);
 
 	// Ashdown
 	destination_map.insert(
 		"Bead & Jewellery ".to_string(),
 		format!("{}__Ashdown/Bead & Jewellery", BASE_PATH),
+	);
+	destination_map.insert(
+		"Dollhouse Miniatures ".to_string(),
+		format!("{}__Ashdown/Dollhouse Miniatures", BASE_PATH),
+	);
+	destination_map.insert(
+		"Dolls House World ".to_string(),
+		format!("{}__Ashdown/Dolls House World", BASE_PATH),
+	);
+
+	// Asian Geographic Magazines
+	destination_map.insert(
+		"Asian Geographic ".to_string(),
+		format!("{}__Asian Geographic Magazines/Asian Geographic", BASE_PATH),
+	);
+
+	// AspenCore
+	destination_map.insert(
+		"Electronic Products ".to_string(),
+		format!("{}__AspenCore/Electronic Products", BASE_PATH),
+	);
+
+	// Astro Publishing
+	destination_map.insert(
+		"Free Astronomy ".to_string(),
+		format!("{}__Astro Publishing/Free Astronomy", BASE_PATH),
+	);
+
+	// Australian Geographic Holdings
+	destination_map.insert(
+		"Australian Geographic ".to_string(),
+		format!("{}__Australian Geographic Holdings/Australian Geographic", BASE_PATH),
+	);
+
+	// Australian Traveller Media
+	destination_map.insert(
+		"Australian Traveller ".to_string(),
+		format!("{}__Australian Traveller Media/Australian Traveller", BASE_PATH),
+	);
+
+	// AVTech Media
+	destination_map.insert(
+		"Hi-Fi News ".to_string(),
+		format!("{}__AVTech Media/Hi-Fi News", BASE_PATH),
+	);
+	destination_map.insert(
+		"Home Cinema Choice ".to_string(),
+		format!("{}__AVTech Media/Home Cinema Choice", BASE_PATH),
+	);
+
+	// AZURE Publishing
+	destination_map.insert(
+		"Azure 20".to_string(),
+		format!("{}__AZURE Publishing/Azure", BASE_PATH),
+	);
+	destination_map.insert(
+		"Designlines ".to_string(),
+		format!("{}__AZURE Publishing/Designlines", BASE_PATH),
+	);
+
+	// Babcox
+	destination_map.insert(
+		"Engine Builder ".to_string(),
+		format!("{}__Babcox/Engine Builder", BASE_PATH),
+	);
+
+	// Bandicoot Publishing
+	destination_map.insert(
+		"Art Almanac ".to_string(),
+		format!("{}__Bandicoot Publishing/Art Almanac", BASE_PATH),
+	);
+	destination_map.insert(
+		"Artist Profile ".to_string(),
+		format!("{}__Bandicoot Publishing/Artist Profile", BASE_PATH),
+	);
+
+	// Bayshore History
+	destination_map.insert(
+		"The Civil War Monitor ".to_string(),
+		format!("{}__Bayshore History/The Civil War Monitor", BASE_PATH),
+	);
+
+	// BCI Media
+	destination_map.insert(
+		"Architecture NZ ".to_string(),
+		format!("{}__BCI Media/Architecture NZ", BASE_PATH),
+	);
+
+	// Biblical Archaelogy Review
+	destination_map.insert(
+		"Biblical Archaelogy Review ".to_string(),
+		format!("{}__Biblical Archaelogy Review/Biblical Archaelogy Review", BASE_PATH),
 	);
 
 	// BizClik Media
@@ -267,6 +616,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__BizClik Media/Cyber Magazine", BASE_PATH),
 	);
 	destination_map.insert(
+		"FinTech Magazine ".to_string(),
+		format!("{}__BizClik Media/FinTech Magazine", BASE_PATH),
+	);
+	destination_map.insert(
 		"Technology 2".to_string(),
 		format!("{}__BizClik Media/Technology", BASE_PATH),
 	);
@@ -277,10 +630,22 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Bloomberg/Bloomberg Businessweek", BASE_PATH),
 	);
 
+	// Blues Matters
+	destination_map.insert(
+		"Blues Matters ".to_string(),
+		format!("{}__Blues Matters/Blues Matters", BASE_PATH),
+	);
+
 	// BNP Media
 	destination_map.insert(
 		"Architectural Record ".to_string(),
 		format!("{}__BNP Media/Architectural Record", BASE_PATH),
+	);
+
+	// Boat International Media
+	destination_map.insert(
+		"Boat International ".to_string(),
+		format!("{}__Boat International Media/Boat International", BASE_PATH),
 	);
 
 	// Bonnier
@@ -305,6 +670,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Bonnier/Inside History Collection", BASE_PATH),
 	);
 	destination_map.insert(
+		"Marlin ".to_string(),
+		format!("{}__Bonnier/Marlin", BASE_PATH),
+	);
+	destination_map.insert(
 		"Sailing World ".to_string(),
 		format!("{}__Bonnier/Sailing World", BASE_PATH),
 	);
@@ -317,10 +686,74 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Bonnier/Yachting", BASE_PATH),
 	);
 
+	// Bonsai Europ Publications
+	destination_map.insert(
+		"Bonsai Focus ".to_string(),
+		format!("{}__Bonsai Europ Publications/Bonsai Focus", BASE_PATH),
+	);
+
+	// Bookpage and Promotion Inc
+	destination_map.insert(
+		"BookPage ".to_string(),
+		format!("{}__Bookpage and Promotion Inc/BookPage", BASE_PATH),
+	);
+
+	// Brainspace Publishing
+	destination_map.insert(
+		"Brainspace ".to_string(),
+		format!("{}__Brainspace Publishing/Brainspace", BASE_PATH),
+	);
+
+	// British Chess Magazine
+	destination_map.insert(
+		"British Chess Magazine ".to_string(),
+		format!("{}__British Chess Magazine/British Chess Magazine", BASE_PATH),
+	);
+
+	// British Columbia Historical Federation
+	destination_map.insert(
+		"British Columbia History ".to_string(),
+		format!(
+			"{}__British Columbia Historical Federation/British Columbia History",
+			BASE_PATH
+		),
+	);
+	destination_map.insert(
+		"British Columbia Magazine ".to_string(),
+		format!(
+			"{}__British Columbia Historical Federation/British Columbia Magazine",
+			BASE_PATH
+		),
+	);
+
 	// Canada Wide Media
 	destination_map.insert(
 		"Western Living ".to_string(),
 		format!("{}__Canada Wide Media/Western Living", BASE_PATH),
+	);
+
+	// Canada's History Society
+	destination_map.insert(
+		"Canada's History ".to_string(),
+		format!("{}__Canada's History Society/Canada's History", BASE_PATH),
+	);
+
+	// Canadian Geographical Society
+	destination_map.insert(
+		"Canadian Geographic ".to_string(),
+		format!("{}__Canadian Geographical Society/Canadian Geographic", BASE_PATH),
+	);
+
+	// Canadian Home Publishers
+	destination_map.insert(
+		"House & Home 20".to_string(),
+		format!("{}__Canadian Home Publishers/House & Home", BASE_PATH),
+	);
+
+	// Canadian Wildlife Federation
+	destination_map.insert(
+		"Canadian Wildlife ".to_string(),
+		format!("{}__Canadian Wildlife Federation/Canadian Wildlife", BASE_PATH),
 	);
 
 	// Castle Media
@@ -329,16 +762,68 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Castle Media/Build It", BASE_PATH),
 	);
 
+	// Casual Game Revolution
+	destination_map.insert(
+		"Casual Game Insider ".to_string(),
+		format!("{}__Casual Game Revolution/Casual Game Insider", BASE_PATH),
+	);
+
+	// Caxton Local Media
+	destination_map.insert(
+		"Farmer's Weekly ".to_string(),
+		format!("{}__Caxton Local Media/Farmer's Weekly", BASE_PATH),
+	);
+
+	// CFE Media
+	destination_map.insert(
+		"Control Engineering ".to_string(),
+		format!("{}__CFE Media/Control Engineering", BASE_PATH),
+	);
+
 	// Challenge Publications
 	destination_map.insert(
 		"Air Classics ".to_string(),
 		format!("{}__Challenge Publications/Air Classics", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sea Classics ".to_string(),
+		format!("{}__Challenge Publications/Sea Classics", BASE_PATH),
+	);
+
+	// Chef Publishing
+	destination_map.insert(
+		"Chef & Restaurant UK ".to_string(),
+		format!("{}__Chef Publishing/Chef & Restaurant UK", BASE_PATH),
 	);
 
 	// China News Service
 	destination_map.insert(
 		"China Report ".to_string(),
 		format!("{}__China News Service/China Report", BASE_PATH),
+	);
+
+	// CICG Americas
+	destination_map.insert(
+		"Beijing Review ".to_string(),
+		format!("{}__CICG Americas/Beijing Review", BASE_PATH),
+	);
+
+	// Cinema Scope
+	destination_map.insert(
+		"Cinema Scope ".to_string(),
+		format!("{}__Cinema Scope/Cinema Scope", BASE_PATH),
+	);
+
+	// Clarity Media Group
+	destination_map.insert(
+		"Washington Examiner ".to_string(),
+		format!("{}__Clarity Media Group/Washington Examiner", BASE_PATH),
+	);
+
+	// CNB미디어 공간연구소
+	destination_map.insert(
+		"Space #".to_string(),
+		format!("{}__CNB미디어 공간연구소/Space", BASE_PATH),
 	);
 
 	// Condé Nast
@@ -357,6 +842,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Condé Nast Traveller ".to_string(),
 		format!("{}__Condé Nast/Condé Nast Traveller", BASE_PATH),
+	);
+	destination_map.insert(
+		"House & Garden UK ".to_string(),
+		format!("{}__Condé Nast/House & Garden UK", BASE_PATH),
 	);
 	destination_map.insert(
 		"Tatler ".to_string(),
@@ -1188,7 +1677,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	);
 	destination_map.insert(
 		"Wargames Soldiers & Strategy Magazine ".to_string(),
-		format!("{}__Karwansaray Publishers/Wargames Soldiers & Strategy Magazine", BASE_PATH),
+		format!(
+			"{}__Karwansaray Publishers/Wargames Soldiers & Strategy Magazine",
+			BASE_PATH
+		),
 	);
 
 	// Kelsey
