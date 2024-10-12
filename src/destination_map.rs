@@ -872,6 +872,138 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Condé Nast/Wired UK", BASE_PATH),
 	);
 
+	// Consumer Reports
+	destination_map.insert(
+		"Consumer Reports 20".to_string(),
+		format!("{}__Consumer Reports/Consumer Reports", BASE_PATH),
+	);
+	destination_map.insert(
+		"Consumer Reports - ".to_string(),
+		format!("{}__Consumer Reports/Consumer Reports", BASE_PATH),
+	);
+	destination_map.insert(
+		"Consumer Reports New Cars ".to_string(),
+		format!("{}__Consumer Reports/Consumer Reports New Cars", BASE_PATH),
+	);
+	destination_map.insert(
+		"Consumer Reports On Health ".to_string(),
+		format!("{}__Consumer Reports/Consumer Reports On Health", BASE_PATH),
+	);
+
+	// Content Nation Media
+	destination_map.insert(
+		"House & Garden SA ".to_string(),
+		format!("{}__Content Nation Media/House & Garden SA", BASE_PATH),
+	);
+
+	// Contista Media
+	destination_map.insert(
+		"British Travel Journal ".to_string(),
+		format!("{}__Contista Media/British Travel Journal", BASE_PATH),
+	);
+	destination_map.insert(
+		"Dream Escape Magazine ".to_string(),
+		format!("{}__Contista Media/Dream Escape Magazine", BASE_PATH),
+	);
+
+	// Corporate Knights Inc
+	destination_map.insert(
+		"Corporate Knights ".to_string(),
+		format!("{}__Corporate Knights Inc/Corporate Knights", BASE_PATH),
+	);
+
+	// Cottage Life Media
+	destination_map.insert(
+		"Cottage Life ".to_string(),
+		format!("{}__Cottage Life Media/Cottage Life", BASE_PATH),
+	);
+
+	// Council for British Archaeology
+	destination_map.insert(
+		"British Archaeology ".to_string(),
+		format!("{}__Council for British Archaeology/British Archaeology", BASE_PATH),
+	);
+
+	// Council on Foreign Relations
+	destination_map.insert(
+		"Foreign Affairs ".to_string(),
+		format!("{}__Council on Foreign Relations/Foreign Affairs", BASE_PATH),
+	);
+
+	// Country & Town House
+	destination_map.insert(
+		"Country & Town House ".to_string(),
+		format!("{}__Country & Town House/Country & Town House", BASE_PATH),
+	);
+
+	// Cricket Media
+	destination_map.insert(
+		"Ask 20".to_string(),
+		format!("{}__Cricket Media/Ask", BASE_PATH),
+	);
+	destination_map.insert(
+		"Babybug 20".to_string(),
+		format!("{}__Cricket Media/Babybug", BASE_PATH),
+	);
+	destination_map.insert(
+		"Click 20".to_string(),
+		format!("{}__Cricket Media/Click", BASE_PATH),
+	);
+	destination_map.insert(
+		"Cobblestone 20".to_string(),
+		format!("{}__Cricket Media/Cobblestone", BASE_PATH),
+	);
+	destination_map.insert(
+		"Cricket 20".to_string(),
+		format!("{}__Cricket Media/Cricket", BASE_PATH),
+	);
+	destination_map.insert(
+		"Faces 20".to_string(),
+		format!("{}__Cricket Media/Faces", BASE_PATH),
+	);
+	destination_map.insert(
+		"Ladybug 20".to_string(),
+		format!("{}__Cricket Media/Ladybug", BASE_PATH),
+	);
+	destination_map.insert(
+		"Muse 20".to_string(),
+		format!("{}__Cricket Media/Muse", BASE_PATH),
+	);
+	destination_map.insert(
+		"Spider 20".to_string(),
+		format!("{}__Cricket Media/Spider", BASE_PATH),
+	);
+
+	// Culinaire Magazine
+	destination_map.insert(
+		"Culinaire ".to_string(),
+		format!("{}__Culinaire Magazine/Culinaire", BASE_PATH),
+	);
+
+	// Cyber Defense Media Group
+	destination_map.insert(
+		"Cyber Defense Magazine ".to_string(),
+		format!("{}__Cyber Defense Media Group/Cyber Defense Magazine", BASE_PATH),
+	);
+
+	// D&B Publishing
+	destination_map.insert(
+		"Pacific PowerBoat ".to_string(),
+		format!("{}__D&B Publishing/Pacific PowerBoat", BASE_PATH),
+	);
+
+	// Damson Meia
+	destination_map.insert(
+		"Arts & Collections ".to_string(),
+		format!("{}__Damson Meia/Arts & Collections", BASE_PATH),
+	);
+
+	// Daphne's Diary BV
+	destination_map.insert(
+		"Daphne's Diary ".to_string(),
+		format!("{}__Daphne's Diary BV/Daphne's Diary", BASE_PATH),
+	);
+
 	// DC Thompson
 	destination_map.insert(
 		"110% Gaming ".to_string(),
@@ -884,6 +1016,14 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Commando ".to_string(),
 		format!("{}__DC Thompson/Commando", BASE_PATH),
+	);
+	destination_map.insert(
+		"My Weekly Pocket Novel ".to_string(),
+		format!("{}__DC Thompson/My Weekly Pocket Novel", BASE_PATH),
+	);
+	destination_map.insert(
+		"The People's Friend Pocket Novel ".to_string(),
+		format!("{}__DC Thompson/The People's Friend Pocket Novel", BASE_PATH),
 	);
 	destination_map.insert(
 		"The Scots Magazine ".to_string(),
@@ -906,6 +1046,22 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Record Collector ".to_string(),
 		format!("{}__Diamond Publishing/Record Collector", BASE_PATH),
+	);
+	destination_map.insert(
+		"Viz ".to_string(),
+		format!("{}__Diamond Publishing/Viz", BASE_PATH),
+	);
+
+	// Direct Publishing Pty
+	destination_map.insert(
+		"Reader's Digest AU ".to_string(),
+		format!("{}__Direct Publishing Pty/Reader's Digest AU", BASE_PATH),
+	);
+
+	// Discover Your Ancestors
+	destination_map.insert(
+		"Discover Your Ancestors ".to_string(),
+		format!("{}__Discover Your Ancestors/Discover Your Ancestors", BASE_PATH),
 	);
 
 	// Doolittle Media
@@ -930,6 +1086,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Barron's ".to_string(),
 		format!("{}__Dow Jones & Company/Barron's", BASE_PATH),
+	);
+
+	// DVV Media International
+	destination_map.insert(
+		"Flight International ".to_string(),
+		format!("{}__DVV Media International/Flight International", BASE_PATH),
 	);
 
 	// EG Media
