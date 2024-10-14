@@ -1222,6 +1222,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__EPS Software Corp/CODE Magazine", BASE_PATH),
 	);
 
+	// Executive Media Pty
+	destination_map.insert(
+		"Traces ".to_string(),
+		format!("{}__Executive Media Pty/Traces", BASE_PATH),
+	);
+
 	// Explore Outdoor Media
 	destination_map.insert(
 		"Explore 20".to_string(),
@@ -1606,6 +1612,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Modern Machine Shop ".to_string(),
 		format!("{}__Gardner Business Media/Modern Machine Shop", BASE_PATH),
+	);
+
+	// Georg
+	destination_map.insert(
+		"Topos ".to_string(),
+		format!("{}__Georg/Topos", BASE_PATH),
 	);
 
 	// Ghoulish Publishing
@@ -3138,6 +3150,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Panorama Media Corp/Very Interesting", BASE_PATH),
 	);
 
+	// Paragraph Publishing
+	destination_map.insert(
+		"Whisky Magazine ".to_string(),
+		format!("{}__Paragraph Publishing/Whisky Magazine", BASE_PATH),
+	);
+
 	// Parkerson Publishing
 	destination_map.insert(
 		"Astronomy Technology Today ".to_string(),
@@ -3404,6 +3422,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Sola Group/Residential Design", BASE_PATH),
 	);
 
+	// Source2Create
+	destination_map.insert(
+		"Women In Security Magazine ".to_string(),
+		format!("{}__Source2Create/Women In Security Magazine", BASE_PATH),
+	);
+
 	// Sovereign Media
 	destination_map.insert(
 		"Military Heritage ".to_string(),
@@ -3534,6 +3558,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Creative Beading ".to_string(),
 		format!("{}__Sunray Publications/Creative Beading", BASE_PATH),
+	);
+	destination_map.insert(
+		"Home Grown ".to_string(),
+		format!("{}__Sunray Publications/Home Grown", BASE_PATH),
 	);
 
 	// Syon Media
@@ -3863,6 +3891,23 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__UK Rock & Roll/UK Rock & Roll", BASE_PATH),
 	);
 
+	// Ulster Tatler Group
+	destination_map.insert(
+		"Ulster Tatler 20".to_string(),
+		format!("{}__Ulster Tatler Group/Ulster Tatler", BASE_PATH),
+	);
+	destination_map.insert(
+		"Ulster Tatler Interiors ".to_string(),
+		format!("{}__Ulster Tatler Group/Ulster Tatler Interiors", BASE_PATH),
+	);
+	
+	
+	// Under the Radar
+	destination_map.insert(
+		"Under the Radar ".to_string(),
+		format!("{}__Under the Radar/Under the Radar", BASE_PATH),
+	);
+
 	// United Media Group
 	destination_map.insert(
 		"Melbourne Kitchen + Bathroom Design ".to_string(),
@@ -4063,6 +4108,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"What Doctors Don't Tell You ".to_string(),
 		format!("{}__WDDTY Publishing/What Doctors Don't Tell You", BASE_PATH),
+	);
+
+	// Westwick-Farrow Media
+	destination_map.insert(
+		"What's New in Electronics ".to_string(),
+		format!("{}__Westwick-Farrow Media/What's New in Electronics", BASE_PATH),
 	);
 
 	// What on Earth Magazines
