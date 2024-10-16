@@ -3923,8 +3923,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Trusted Media Brands/Taste of Home", BASE_PATH),
 	);
 	destination_map.insert(
-		"The Family Handyman ".to_string(),
-		format!("{}__Trusted Media Brands/The Family Handyman", BASE_PATH),
+		"Family Handyman ".to_string(),
+		format!("{}__Trusted Media Brands/Family Handyman", BASE_PATH),
 	);
 
 	// TVA
