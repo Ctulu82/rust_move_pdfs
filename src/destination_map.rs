@@ -105,7 +105,15 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Active Interest Media/PassageMaker", BASE_PATH),
 	);
 	destination_map.insert(
-		"Sail ".to_string(),
+		"Power & Motoryacht ".to_string(),
+		format!("{}__Active Interest Media/Power & Motoryacht", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sail - ".to_string(),
+		format!("{}__Active Interest Media/Sail", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sail 20".to_string(),
 		format!("{}__Active Interest Media/Sail", BASE_PATH),
 	);
 	destination_map.insert(
@@ -576,6 +584,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__AVTech Media/Sound & Vision", BASE_PATH),
 	);
 
+	// Axel Springer SE
+	destination_map.insert(
+		"Politico EU ".to_string(),
+		format!("{}__Axel Springer SE/Politico EU", BASE_PATH),
+	);
+
 	// AZURE Publishing
 	destination_map.insert(
 		"Azure 20".to_string(),
@@ -1028,6 +1042,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Daphne's Diary ".to_string(),
 		format!("{}__Daphne's Diary BV/Daphne's Diary", BASE_PATH),
+	);
+
+	// David Alderton
+	destination_map.insert(
+		"Practical Reptile Keeping ".to_string(),
+		format!("{}__David Alderton/Practical Reptile Keeping", BASE_PATH),
 	);
 
 	// DC Thompson
@@ -3188,6 +3208,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__North Coast Media/GPS World", BASE_PATH),
 	);
 
+	// Nuclear Media
+	destination_map.insert(
+		"Krash #".to_string(),
+		format!("{}__Nuclear Media/Krash", BASE_PATH),
+	);
+
 	// NYREV
 	destination_map.insert(
 		"The New York Review of Books ".to_string(),
@@ -3320,6 +3346,18 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Penske Media Corp./The Hollywood Reporter", BASE_PATH),
 	);
 
+	// Peppermint Magazine
+	destination_map.insert(
+		"Peppermint #".to_string(),
+		format!("{}__Peppermint Magazine/Peppermint", BASE_PATH),
+	);
+
+	// Perspective Magazine
+	destination_map.insert(
+		"Perspective UK ".to_string(),
+		format!("{}__Perspective Magazine/Perspective UK", BASE_PATH),
+	);
+
 	// Phi Beta Kappa Society
 	destination_map.insert(
 		"The American Scholar ".to_string(),
@@ -3332,6 +3370,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Phoenix Scale Publications/Phoenix Aviation Modelling", BASE_PATH),
 	);
 
+	// Pip Magazine
+	destination_map.insert(
+		"Pip Magazine ".to_string(),
+		format!("{}__Pip Magazine/Pip Magazine", BASE_PATH),
+	);
+
 	// Poet Press
 	destination_map.insert(
 		"New Philosopher ".to_string(),
@@ -3342,6 +3386,18 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Poets & Writers ".to_string(),
 		format!("{}__Poets & Writers/Poets & Writers", BASE_PATH),
+	);
+
+	// Powerboat and RIB
+	destination_map.insert(
+		"Powerboat & RIB ".to_string(),
+		format!("{}__Powerboat and RIB/Powerboat & RIB", BASE_PATH),
+	);
+
+	// Prehistoric Times
+	destination_map.insert(
+		"Prehistoric Times ".to_string(),
+		format!("{}__Prehistoric Times/Prehistoric Times", BASE_PATH),
 	);
 
 	// Prime Creative Media
@@ -3392,8 +3448,18 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Reader’s Digest Magazines Canada/More of Our Canada", BASE_PATH),
 	);
 	destination_map.insert(
+		"Our Canada".to_string(),
+		format!("{}__Reader’s Digest Magazines Canada/Our Canada", BASE_PATH),
+	);
+	destination_map.insert(
 		"Reader's Digest CA ".to_string(),
 		format!("{}__Reader’s Digest Magazines Canada/Reader's Digest CA", BASE_PATH),
+	);
+
+	// Reason
+	destination_map.insert(
+		"Reason 20".to_string(),
+		format!("{}__Reason/Reason", BASE_PATH),
 	);
 
 	// Recurrent Ventures
@@ -3406,10 +3472,16 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Recurrent Ventures/Outdoor Life", BASE_PATH),
 	);
 
+	// RMS Media Group
+	destination_map.insert(
+		"Ocean Home 20".to_string(),
+		format!("{}__RMS Media Group/Ocean Home", BASE_PATH),
+	);
+
 	// Royal Aeronautical Society
 	destination_map.insert(
 		"Aerospace 20".to_string(),
-		format!("{}__Royal Aeronautical Society/abAerospacecd", BASE_PATH),
+		format!("{}__Royal Aeronautical Society/Aerospace", BASE_PATH),
 	);
 
 	// SAE Media
@@ -4342,6 +4414,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Absolutely Education ".to_string(),
 		format!("{}__Zest Media/Absolutely Education", BASE_PATH),
+	);
+
+	// Ziff Davis Inc
+	destination_map.insert(
+		"PC Magazine 20".to_string(),
+		format!("{}__Ziff Davis Inc/PC Magazine", BASE_PATH),
 	);
 
 	// Zonda Media
