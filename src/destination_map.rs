@@ -564,12 +564,18 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Astro Publishing/Free Astronomy", BASE_PATH),
 	);
 
-	// Athlon
-
 	// Athleisure Media
 	destination_map.insert(
 		"Athleisure ".to_string(),
 		format!("{}__Athleisure Media/Athleisure", BASE_PATH),
+	);
+
+	// Athlon
+
+	// AudioFile Publications
+	destination_map.insert(
+		"AudioFile ".to_string(),
+		format!("{}__AudioFile Publications/AudioFile", BASE_PATH),
 	);
 
 	// Australian Geographic Holdings
