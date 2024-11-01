@@ -1476,6 +1476,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Future Plc/Country Life", BASE_PATH),
 	);
 	destination_map.insert(
+		"Digital Photographer #".to_string(),
+		format!("{}__Future Plc/Digital Photographer", BASE_PATH),
+	);
+	destination_map.insert(
 		"Edge #".to_string(),
 		format!("{}__Future Plc/Edge", BASE_PATH),
 	);
@@ -2267,6 +2271,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	);
 	destination_map.insert(
 		"BBC Good Food 20".to_string(),
+		format!("{}__Immediate/BBC Good Food", BASE_PATH),
+	);
+	destination_map.insert(
+		"BBC Good Food -".to_string(),
 		format!("{}__Immediate/BBC Good Food", BASE_PATH),
 	);
 	destination_map.insert(
@@ -3800,6 +3808,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Defense News ".to_string(),
 		format!("{}__Sightline/Defense News", BASE_PATH),
+	);
+	destination_map.insert(
+		"Navy Times ".to_string(),
+		format!("{}__Sightline/Navy Times", BASE_PATH),
 	);
 
 	// Sigma Xi
