@@ -930,6 +930,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Condé Nast/GQ", BASE_PATH),
 	);
 	destination_map.insert(
+		"GQ -".to_string(),
+		format!("{}__Condé Nast/GQ", BASE_PATH),
+	);
+	destination_map.insert(
 		"GQ UK ".to_string(),
 		format!("{}__Condé Nast/GQ UK", BASE_PATH),
 	);
