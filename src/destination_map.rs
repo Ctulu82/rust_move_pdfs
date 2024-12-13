@@ -1844,6 +1844,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Griffin Publishing Solutions/Arthritis Digest", BASE_PATH),
 	);
 
+	// GS Media & Events
+	destination_map.insert(
+		"Wildsam ".to_string(),
+		format!("{}__GS Media & Events/Wildsam", BASE_PATH),
+	);
+
 	// Guardian News & Media
 	destination_map.insert(
 		"The Guardian Feast ".to_string(),
@@ -1952,6 +1958,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Getaway ".to_string(),
 		format!("{}__Habari Media/Getaway", BASE_PATH),
+	);
+	destination_map.insert(
+		"South African Garden & Home ".to_string(),
+		format!("{}__Habari Media/South African Garden & Home", BASE_PATH),
 	);
 
 	// Hackercool
@@ -2581,6 +2591,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Psychologies ".to_string(),
 		format!("{}__Kelsey/Psychologies", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sea Angler ".to_string(),
+		format!("{}__Kelsey/Sea Angler", BASE_PATH),
 	);
 	destination_map.insert(
 		"Ships Monthly ".to_string(),
