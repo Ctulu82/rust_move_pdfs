@@ -81,6 +81,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Active Interest Media/Fine Homebuilding", BASE_PATH),
 	);
 	destination_map.insert(
+		"Fine Woodworking ".to_string(),
+		format!("{}__Active Interest Media/Fine Woodworking", BASE_PATH),
+	);
+	destination_map.insert(
 		"Garden Gate ".to_string(),
 		format!("{}__Active Interest Media/Garden Gate", BASE_PATH),
 	);
@@ -91,6 +95,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Log & Timber ".to_string(),
 		format!("{}__Active Interest Media/Log & Timber", BASE_PATH),
+	);
+	destination_map.insert(
+		"Multihull Power & Sail ".to_string(),
+		format!("{}__Active Interest Media/Multihull Power & Sail", BASE_PATH),
 	);
 	destination_map.insert(
 		"Numismatic News ".to_string(),
@@ -119,6 +127,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Soundings ".to_string(),
 		format!("{}__Active Interest Media/Soundings", BASE_PATH),
+	);
+	destination_map.insert(
+		"Traditional Building ".to_string(),
+		format!("{}__Active Interest Media/Traditional Building", BASE_PATH),
 	);
 	destination_map.insert(
 		"World Coin News ".to_string(),
@@ -601,6 +613,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Australian Traveller ".to_string(),
 		format!("{}__Australian Traveller Media/Australian Traveller", BASE_PATH),
 	);
+	destination_map.insert(
+		"International Traveller ".to_string(),
+		format!("{}__Australian Traveller Media/International Traveller", BASE_PATH),
+	);
 
 	// Axel Springer SE
 	destination_map.insert(
@@ -812,6 +828,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Build It ".to_string(),
 		format!("{}__Castle Media/Build It", BASE_PATH),
+	);
+	destination_map.insert(
+		"SelfBuild & Design ".to_string(),
+		format!("{}__Castle Media/SelfBuild & Design", BASE_PATH),
 	);
 
 	// Casual Game Revolution
@@ -1311,6 +1331,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Machine Design ".to_string(),
 		format!("{}__Endeavor Business Media/Machine Design", BASE_PATH),
 	);
+	destination_map.insert(
+		"Military + Aerospace Electronics ".to_string(),
+		format!("{}__Endeavor Business Media/Military + Aerospace Electronics", BASE_PATH),
+	);
 
 	// Engaged Media
 	destination_map.insert(
@@ -1550,6 +1574,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Homes & Gardens ".to_string(),
 		format!("{}__Future Plc/Homes & Gardens", BASE_PATH),
+	);
+	destination_map.insert(
+		"Horse & Hound ".to_string(),
+		format!("{}__Future Plc/Horse & Hound", BASE_PATH),
 	);
 	destination_map.insert(
 		"How It Works ".to_string(),
@@ -2712,6 +2740,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"The Architectural Technologists Book ".to_string(),
 		format!("{}__L2 Architectural Media/The Architectural Technologists Book", BASE_PATH),
 	);
+	destination_map.insert(
+		"Building Innovations ".to_string(),
+		format!("{}__L2 Architectural Media/Building Innovations", BASE_PATH),
+	);
 
 	// L'Officiel
 	destination_map.insert(
@@ -3222,6 +3254,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// MyTime Media
 	destination_map.insert(
+		"Hi-Fi Choice ".to_string(),
+		format!("{}__MyTime Media/Hi-Fi Choice", BASE_PATH),
+	);
+	destination_map.insert(
 		"Hi-Fi News ".to_string(),
 		format!("{}__MyTime Media/Hi-Fi News", BASE_PATH),
 	);
@@ -3690,6 +3726,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"OM Yoga & Lifestyle ".to_string(),
 		format!("{}__Prime Impact/OM Yoga & Lifestyle", BASE_PATH),
+	);
+
+	// Print Ideas
+	destination_map.insert(
+		"Art Guide AU ".to_string(),
+		format!("{}__Print Ideas/Art Guide AU", BASE_PATH),
 	);
 
 	// Project M Group
@@ -4311,6 +4353,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Sailing Today ".to_string(),
 		format!("{}__The Chelsea Magazine Company/Sailing Today", BASE_PATH),
+	);
+	destination_map.insert(
+		"Scotland #".to_string(),
+		format!("{}__The Chelsea Magazine Company/Scotland", BASE_PATH),
 	);
 	destination_map.insert(
 		"The English Garden ".to_string(),
