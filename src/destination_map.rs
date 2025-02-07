@@ -716,7 +716,11 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Bonnier/Anti-Inflammatory", BASE_PATH),
 	);
 	destination_map.insert(
-		"Boating ".to_string(),
+		"Boating 20".to_string(),
+		format!("{}__Bonnier/Boating", BASE_PATH),
+	);
+	destination_map.insert(
+		"Boating - ".to_string(),
 		format!("{}__Bonnier/Boating", BASE_PATH),
 	);
 	destination_map.insert(
@@ -4639,8 +4643,16 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// United Media Group
 	destination_map.insert(
+		"Melbourne Home Design + Living ".to_string(),
+		format!("{}__United Media Group/Melbourne Home Design + Living", BASE_PATH),
+	);
+	destination_map.insert(
 		"Melbourne Kitchen + Bathroom Design ".to_string(),
 		format!("{}__United Media Group/Melbourne Kitchen + Bathroom Design", BASE_PATH),
+	);
+	destination_map.insert(
+		"Melbourne Pool + Outdoor Design ".to_string(),
+		format!("{}__United Media Group/Melbourne Pool + Outdoor Design", BASE_PATH),
 	);
 
 	// Universal Media Co.
@@ -4781,6 +4793,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Miniature Wargames ".to_string(),
 		format!("{}__Warners/Miniature Wargames", BASE_PATH),
+	);
+	destination_map.insert(
+		"Pianist #".to_string(),
+		format!("{}__Warners/Pianist", BASE_PATH),
 	);
 	destination_map.insert(
 		"Practical Fishkeeping ".to_string(),
