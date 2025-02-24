@@ -265,6 +265,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// American Library Association
 	destination_map.insert(
+		"American Libraries ".to_string(),
+		format!("{}__American Library Association/American Libraries", BASE_PATH),
+	);
+	destination_map.insert(
 		"Booklist 20".to_string(),
 		format!("{}__American Library Association/Booklist", BASE_PATH),
 	);
@@ -764,7 +768,7 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Bonnier/Salt Water Sportsman", BASE_PATH),
 	);
 	destination_map.insert(
-		"Yachting ".to_string(),
+		"Yachting 20".to_string(),
 		format!("{}__Bonnier/Yachting", BASE_PATH),
 	);
 
@@ -1308,6 +1312,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__EG Media/Western Life Today", BASE_PATH),
 	);
 
+	// Electron Publishing
+	destination_map.insert(
+		"Practical Electronics ".to_string(),
+		format!("{}__Electron Publishing/Practical Electronics", BASE_PATH),
+	);
+
 	// Elektor International Media
 	destination_map.insert(
 		"Elektor Mag ".to_string(),
@@ -1498,6 +1508,14 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Fusion #".to_string(),
 		format!("{}__Fusion Retro Books/Fusion", BASE_PATH),
+	);
+	destination_map.insert(
+		"Next Magazine -".to_string(),
+		format!("{}__Fusion Retro Books/Next Magazine", BASE_PATH),
+	);
+	destination_map.insert(
+		"Next Magazine #".to_string(),
+		format!("{}__Fusion Retro Books/Next Magazine", BASE_PATH),
 	);
 	destination_map.insert(
 		"SEGA Force Mega ".to_string(),
