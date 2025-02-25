@@ -1164,6 +1164,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__DC Thompson/110% Gaming", BASE_PATH),
 	);
 	destination_map.insert(
+		"Animal Planet # ".to_string(),
+		format!("{}__DC Thompson/Animal Planet", BASE_PATH),
+	);
+	destination_map.insert(
 		"Beano ".to_string(),
 		format!("{}__DC Thompson/Beano", BASE_PATH),
 	);
@@ -1414,6 +1418,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Delicious UK ".to_string(),
 		format!("{}__Eye to Eye Media/Delicious UK", BASE_PATH),
+	);
+	destination_map.insert(
+		"Healthy Food Guide UK ".to_string(),
+		format!("{}__Eye to Eye Media/Healthy Food Guide UK", BASE_PATH),
 	);
 
 	// Falkemedia
@@ -1972,6 +1980,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Blade 20".to_string(),
 		format!("{}__Gun Digest Media/Blade", BASE_PATH),
+	);
+	destination_map.insert(
+		"Gun Digest ".to_string(),
+		format!("{}__Gun Digest Media/Gun Digest", BASE_PATH),
 	);
 
 	// GWP Marketing
@@ -3054,6 +3066,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Media 24/Home SA", BASE_PATH),
 	);
 	destination_map.insert(
+		"Lose It! ".to_string(),
+		format!("{}__Media 24/Lose It!", BASE_PATH),
+	);
+	destination_map.insert(
 		"Man Magnum ".to_string(),
 		format!("{}__Media 24/Man Magnum", BASE_PATH),
 	);
@@ -3262,8 +3278,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// Moorshead Magazines
 	destination_map.insert(
-		"History Magazine 20".to_string(),
-		format!("{}__Moorshead Magazines/History Magazine", BASE_PATH),
+		"History Magazine Quarterly ".to_string(),
+		format!("{}__Moorshead Magazines/History Magazine Quarterly", BASE_PATH),
 	);
 	destination_map.insert(
 		"Internet Genealogy ".to_string(),
@@ -3582,8 +3598,20 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// Outdoor Sportsman Group
 	destination_map.insert(
+		"Firearms News ".to_string(),
+		format!("{}__Outdoor Sportsman Group/Firearms News", BASE_PATH),
+	);
+	destination_map.insert(
 		"Florida Sportsman ".to_string(),
 		format!("{}__Outdoor Sportsman Group/Florida Sportsman", BASE_PATH),
+	);
+	destination_map.insert(
+		"Guns & Ammo ".to_string(),
+		format!("{}__Outdoor Sportsman Group/Guns & Ammo", BASE_PATH),
+	);
+	destination_map.insert(
+		"Handguns 20".to_string(),
+		format!("{}__Outdoor Sportsman Group/Handguns", BASE_PATH),
 	);
 
 	// Outside Inc
@@ -3598,6 +3626,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Outside ".to_string(),
 		format!("{}__Outside Inc/Outside", BASE_PATH),
+	);
+	destination_map.insert(
+		"Yoga Journal ".to_string(),
+		format!("{}__Outside Inc/Yoga Journal", BASE_PATH),
 	);
 
 	// Page One Publishing
