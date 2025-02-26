@@ -1198,6 +1198,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Dead Good Publishing/Haunted Magazine", BASE_PATH),
 	);
 
+	// DestinAsian Media
+	destination_map.insert(
+		"DestinAsian ".to_string(),
+		format!("{}__DestinAsian Media/DestinAsian", BASE_PATH),
+	);
+
 	// Diamond Publishing
 	destination_map.insert(
 		"Best of British ".to_string(),
@@ -1428,6 +1434,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Beat #".to_string(),
 		format!("{}__Falkemedia/Beat", BASE_PATH),
+	);
+
+	// Feast Media
+	destination_map.insert(
+		"Feast Magazine ".to_string(),
+		format!("{}__Feast Media/Feast Magazine", BASE_PATH),
 	);
 
 	// Fieldsports Press
@@ -2028,6 +2040,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Mojo ".to_string(),
 		format!("{}__H Bauer/Mojo", BASE_PATH),
+	);
+	destination_map.insert(
+		"Trail Running ".to_string(),
+		format!("{}__H Bauer/Trail Running", BASE_PATH),
 	);
 	destination_map.insert(
 		"Trail UK".to_string(),
@@ -3905,6 +3921,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Outdoor Life ".to_string(),
 		format!("{}__Recurrent Ventures/Outdoor Life", BASE_PATH),
 	);
+	destination_map.insert(
+		"Popular Science ".to_string(),
+		format!("{}__Recurrent Ventures/Popular Science", BASE_PATH),
+	);
 
 	// Renew
 	destination_map.insert(
@@ -4231,7 +4251,7 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	// Storytime Magazine
 	destination_map.insert(
 		"Storytime ".to_string(),
-		format!("{}___Storytime Magazine/Storytime", BASE_PATH),
+		format!("{}__Storytime Magazine/Storytime", BASE_PATH),
 	);
 
 	// Strategy & Tactics Press
@@ -4527,6 +4547,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"The New York Times Style Magazine ".to_string(),
 		format!("{}__The New York Times Company/The New York Times Style Magazine", BASE_PATH),
+	);
+
+	// The Open Studios Press
+	destination_map.insert(
+		"New American Paintings ".to_string(),
+		format!("{}__The Open Studios Press/New American Paintings", BASE_PATH),
 	);
 
 	// The Oxford American Literary Project
@@ -4898,6 +4924,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	);
 	destination_map.insert(
 		"Pianist #".to_string(),
+		format!("{}__Warners/Pianist", BASE_PATH),
+	);
+	destination_map.insert(
+		"Pianist - ".to_string(),
 		format!("{}__Warners/Pianist", BASE_PATH),
 	);
 	destination_map.insert(
