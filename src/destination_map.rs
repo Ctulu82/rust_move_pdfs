@@ -2091,7 +2091,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	// Harvard Business School Publishing
 	destination_map.insert(
 		"Harvard Business Review ".to_string(),
-		format!("{}__Harvard Business School Publishing/Harvard Business Review", BASE_PATH),
+		format!(
+			"{}__Harvard Business School Publishing/Harvard Business Review",
+			BASE_PATH
+		),
 	);
 
 	// Hearst
@@ -2652,6 +2655,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	);
 
 	// Kelsey
+	destination_map.insert(
+		"Kelsey's ".to_string(),
+		format!("{}__Kelsey/_MagBooks", BASE_PATH),
+	);
 	destination_map.insert(
 		"220 Triathlon ".to_string(),
 		format!("{}__Kelsey/220 Triathlon", BASE_PATH),
@@ -3586,6 +3593,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Krash #".to_string(),
 		format!("{}__Nuclear Media/Krash", BASE_PATH),
+	);
+
+	// NutraTech Ltd
+	destination_map.insert(
+		"Healthy Balance ".to_string(),
+		format!("{}__NutraTech Ltd/Healthy Balance", BASE_PATH),
 	);
 
 	// NYREV
