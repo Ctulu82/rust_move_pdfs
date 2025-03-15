@@ -15,6 +15,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__5280 Publishing/5280 Magazine", BASE_PATH),
 	);
 
+	// A360
+	destination_map.insert(
+		"A360's ".to_string(),
+		format!("{}__A360/", BASE_PATH),
+	);
+
 	// AAAS
 	destination_map.insert(
 		"Science 20".to_string(),
@@ -742,6 +748,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Boating - ".to_string(),
 		format!("{}__Bonnier/Boating", BASE_PATH),
+	);
+	destination_map.insert(
+		"Bonnier's ".to_string(),
+		format!("{}__Bonnier/_MagBooks", BASE_PATH),
 	);
 	destination_map.insert(
 		"Bringing History to Life ".to_string(),
@@ -2459,6 +2469,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Gardens Illustrated ".to_string(),
 		format!("{}__Immediate/Gardens Illustrated", BASE_PATH),
+	);
+	destination_map.insert(
+		"History Extra ".to_string(),
+		format!("{}__Immediate/History Extra", BASE_PATH),
 	);
 	destination_map.insert(
 		"Home Style UK ".to_string(),
