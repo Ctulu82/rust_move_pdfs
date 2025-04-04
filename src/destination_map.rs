@@ -20,6 +20,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"A360's ".to_string(),
 		format!("{}__A360/", BASE_PATH),
 	);
+	destination_map.insert(
+		"Backwoods ".to_string(),
+		format!("{}__A360/Backwoods", BASE_PATH),
+	);
 
 	// AAAS
 	destination_map.insert(
@@ -621,6 +625,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	);
 
 	// Athlon
+	destination_map.insert(
+		"Combat Handguns ".to_string(),
+		format!("{}__Athlon/Combat Handguns", BASE_PATH),
+	);
 
 	// AudioFile Publications
 	destination_map.insert(
@@ -702,6 +710,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Cyber Magazine ".to_string(),
 		format!("{}__BizClik Media/Cyber Magazine", BASE_PATH),
+	);
+	destination_map.insert(
+		"Data Centre ".to_string(),
+		format!("{}__BizClik Media/Data Centre", BASE_PATH),
 	);
 	destination_map.insert(
 		"FinTech Magazine ".to_string(),
@@ -1598,12 +1610,20 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Future Plc/Computeractive", BASE_PATH),
 	);
 	destination_map.insert(
-		"Country Home & Interiors ".to_string(),
-		format!("{}__Future Plc/Country Home & Interiors", BASE_PATH),
+		"Country Homes & Interiors ".to_string(),
+		format!("{}__Future Plc/Country Homes & Interiors", BASE_PATH),
 	);
 	destination_map.insert(
 		"Country Life ".to_string(),
 		format!("{}__Future Plc/Country Life", BASE_PATH),
+	);
+	destination_map.insert(
+		"Decanter ".to_string(),
+		format!("{}__Future Plc/Decanter", BASE_PATH),
+	);
+	destination_map.insert(
+		"Digital Camera World ".to_string(),
+		format!("{}__Future Plc/Digital Camera World", BASE_PATH),
 	);
 	destination_map.insert(
 		"Digital Photographer #".to_string(),
@@ -2028,6 +2048,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__H Bauer/Country Walking", BASE_PATH),
 	);
 	destination_map.insert(
+		"Crime Monthly ".to_string(),
+		format!("{}__H Bauer/Crime Monthly", BASE_PATH),
+	);
+	destination_map.insert(
 		"Empire ".to_string(),
 		format!("{}__H Bauer/Empire", BASE_PATH),
 	);
@@ -2423,6 +2447,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// Immediate
 	destination_map.insert(
+		"Immediate's ".to_string(),
+		format!("{}__Immediate/_MagBooks", BASE_PATH),
+	);
+	destination_map.insert(
 		"BBC Countryfile ".to_string(),
 		format!("{}__Immediate/BBC Countryfile", BASE_PATH),
 	);
@@ -2688,6 +2716,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Boxing News ".to_string(),
 		format!("{}__Kelsey/Boxing News", BASE_PATH),
+	);
+	destination_map.insert(
+		"Car Mechanics ".to_string(),
+		format!("{}__Kelsey/Car Mechanics", BASE_PATH),
 	);
 	destination_map.insert(
 		"ClayCraft ".to_string(),
@@ -3335,6 +3367,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Model Boats ".to_string(),
 		format!("{}__Morton/Model Boats", BASE_PATH),
+	);
+	destination_map.insert(
+		"Morton's ".to_string(),
+		format!("{}__Morton/_MagBooks", BASE_PATH),
 	);
 
 	// Motivate Media Group
@@ -4195,6 +4231,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Brain Train ".to_string(),
 		format!("{}__Sparkle Buds/Brain Train", BASE_PATH),
+	);
+	destination_map.insert(
+		"Chelsea Rhymes ".to_string(),
+		format!("{}__Sparkle Buds/Chelsea Rhymes", BASE_PATH),
 	);
 	destination_map.insert(
 		"De-Stress Yourself ".to_string(),
