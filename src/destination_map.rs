@@ -341,6 +341,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Country Sampler ".to_string(),
 		format!("{}__Annie's/Country Sampler", BASE_PATH),
 	);
+	destination_map.insert(
+		"Good Old Days ".to_string(),
+		format!("{}__Annie's/Good Old Days", BASE_PATH),
+	);
 
 	// Anthem
 	destination_map.insert(
@@ -539,6 +543,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	);
 
 	// Artichoke
+	destination_map.insert(
+		"Global Franchise ".to_string(),
+		format!("{}__Artichoke/Global Franchise", BASE_PATH),
+	);
 	destination_map.insert(
 		"Great British Food ".to_string(),
 		format!("{}__Artichoke/Great British Food", BASE_PATH),
@@ -1172,6 +1180,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Daphne's Diary ".to_string(),
 		format!("{}__Daphne's Diary BV/Daphne's Diary", BASE_PATH),
+	);
+
+	// Dara Knot Inc
+	destination_map.insert(
+		"Celtic Life International ".to_string(),
+		format!("{}__Dara Knot Inc/Celtic Life International", BASE_PATH),
 	);
 
 	// David Alderton
@@ -3021,6 +3035,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Mango Life Media/iPhone Life", BASE_PATH),
 	);
 
+	// Mann Media Inc.
+	destination_map.insert(
+		"Our State Celebrating North Carolina ".to_string(),
+		format!("{}__Mann Media Inc/Our State Celebrating North Carolina", BASE_PATH),
+	);
+
 	// Mansueto Ventures
 	destination_map.insert(
 		"Fast Company ".to_string(),
@@ -3615,6 +3635,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Niche Media Pty/Inside Interior Design Review", BASE_PATH),
 	);
 
+	// Nile Magazine
+	destination_map.insert(
+		"Nile Magazine ".to_string(),
+		format!("{}__Nile Magazine/Nile Magazine", BASE_PATH),
+	);
+
 	// Ninty Media
 	destination_map.insert(
 		"Switch Player ".to_string(),
@@ -3897,6 +3923,15 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Print Ideas/Art Guide AU", BASE_PATH),
 	);
 
+	// Printed Circuit Engineering Association
+	destination_map.insert(
+		"Printed Circuit Design & Fab Circuits Assembly ".to_string(),
+		format!(
+			"{}__Printed Circuit Engineering Association/Printed Circuit Design & Fab Circuits Assembly",
+			BASE_PATH
+		),
+	);
+
 	// Project M Group
 	destination_map.insert(
 		"Goldmine ".to_string(),
@@ -4001,7 +4036,7 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// revue Argument
 	destination_map.insert(
-		"Argument 20".to_string(),
+		"Argument #".to_string(),
 		format!("{}__revue Argument/Argument", BASE_PATH),
 	);
 
@@ -4849,6 +4884,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Melbourne Pool + Outdoor Design ".to_string(),
 		format!("{}__United Media Group/Melbourne Pool + Outdoor Design", BASE_PATH),
 	);
+	destination_map.insert(
+		"Western Australia Home Design + Living ".to_string(),
+		format!("{}__United Media Group/Western Australia Home Design + Living", BASE_PATH),
+	);
 
 	// Universal Media Co.
 	destination_map.insert(
@@ -5090,6 +5129,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Good Homes UK ".to_string(),
 		format!("{}__William Gibbons & Sons/Good Homes UK", BASE_PATH),
+	);
+
+	// Wisconsin Historical Society
+	destination_map.insert(
+		"Wisconsin Magazine of History ".to_string(),
+		format!("{}__Wisconsin Historical Society/Wisconsin Magazine of History", BASE_PATH),
 	);
 
 	// WoodenBoat Publications
