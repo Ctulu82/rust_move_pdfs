@@ -1,3 +1,9 @@
+//! Release build
+//!
+//! ```
+//! cargo build --release
+//! ```
+
 mod destination_map;
 
 use destination_map::get_destination_map;
