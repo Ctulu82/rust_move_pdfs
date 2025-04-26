@@ -4829,6 +4829,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Towse Publishing Co/Furniture World", BASE_PATH),
 	);
 
+	// TraderFox
+	destination_map.insert(
+		"The Trader Times ".to_string(),
+		format!("{}__TraderFox/The Trader Times", BASE_PATH),
+	);
+
 	// Tribune Publishing Company
 	destination_map.insert(
 		"Chicago 20".to_string(),
