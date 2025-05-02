@@ -4863,6 +4863,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Trusted Media Brands/Country Woman", BASE_PATH),
 	);
 	destination_map.insert(
+		"Farm & Ranch Living ".to_string(),
+		format!("{}__Trusted Media Brands/Farm & Ranch Living", BASE_PATH),
+	);
+	destination_map.insert(
 		"Reader's Digest US ".to_string(),
 		format!("{}__Trusted Media Brands/Reader's Digest US", BASE_PATH),
 	);
