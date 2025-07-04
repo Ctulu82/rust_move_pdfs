@@ -740,7 +740,7 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// Blues Matters
 	destination_map.insert(
-		"Blues Matters ".to_string(),
+		"Blues Matters! ".to_string(),
 		format!("{}__Blues Matters/Blues Matters", BASE_PATH),
 	);
 
@@ -1224,6 +1224,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__DC Thompson/Commando", BASE_PATH),
 	);
 	destination_map.insert(
+		"DC Thompson's ".to_string(),
+		format!("{}__DC Thompson/_MagBooks", BASE_PATH),
+	);
+	destination_map.insert(
 		"My Weekly Pocket Novel ".to_string(),
 		format!("{}__DC Thompson/My Weekly Pocket Novel", BASE_PATH),
 	);
@@ -1592,6 +1596,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"ZZAP! 64 ".to_string(),
 		format!("{}__Fusion Retro Books/ZZAP! 64", BASE_PATH),
+	);
+	destination_map.insert(
+		"ZZAP! Amiga ".to_string(),
+		format!("{}__Fusion Retro Books/ZZAP! Amiga", BASE_PATH),
 	);
 
     // Future Plc
@@ -2167,8 +2175,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Hearst/Delish", BASE_PATH),
 	);
 	destination_map.insert(
-		"Elle Decor 20".to_string(),
-		format!("{}__Hearst/Elle Decor", BASE_PATH),
+		"Elle Decor US ".to_string(),
+		format!("{}__Hearst/Elle Decor US", BASE_PATH),
 	);
 	destination_map.insert(
 		"Elle Decor IT ".to_string(),
@@ -2784,6 +2792,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Old Glory ".to_string(),
 		format!("{}__Kelsey/Old Glory", BASE_PATH),
+	);
+	destination_map.insert(
+		"Profi International ".to_string(),
+		format!("{}__Kelsey/Profi International", BASE_PATH),
 	);
 	destination_map.insert(
 		"Psychologies ".to_string(),
@@ -3813,6 +3825,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 
 	// Paragraph Publishing
 	destination_map.insert(
+		"American Whiskey #".to_string(),
+		format!("{}__Paragraph Publishing/American Whisky", BASE_PATH),
+	);
+	destination_map.insert(
 		"Whisky Magazine ".to_string(),
 		format!("{}__Paragraph Publishing/Whisky Magazine", BASE_PATH),
 	);
@@ -4396,6 +4412,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Ancient Origins Magazine ".to_string(),
 		format!("{}__Stella Novus/Ancient Origins Magazine", BASE_PATH),
+	);
+
+	// Story House Egmont
+	destination_map.insert(
+		"Toxic #".to_string(),
+		format!("{}__Story House Egmont/Toxicx", BASE_PATH),
 	);
 
 	// Storytime Magazine
