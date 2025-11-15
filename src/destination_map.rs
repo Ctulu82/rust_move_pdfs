@@ -155,6 +155,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Active Interest Media/Yachts International", BASE_PATH),
 	);
 
+	// Adbusters Media
+	destination_map.insert(
+		"Adbusters #".to_string(),
+		format!("{}__Adbusters Media/Adbusters", BASE_PATH),
+	);
+
 	// Adirondack Explorer
 	destination_map.insert(
 		"Adirondack Explorer ".to_string(),
@@ -474,8 +480,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Are Media/New Idea Food", BASE_PATH),
 	);
 	destination_map.insert(
-		"The Australian Woman's Weekly ".to_string(),
-		format!("{}__Are Media/The Australian Woman's Weekly", BASE_PATH),
+		"The Australian Women's Weekly ".to_string(),
+		format!("{}__Are Media/The Australian Women's Weekly", BASE_PATH),
 	);
 	destination_map.insert(
 		"Your Home and Garden ".to_string(),
@@ -636,6 +642,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Combat Handguns ".to_string(),
 		format!("{}__Athlon/Combat Handguns", BASE_PATH),
+	);
+	destination_map.insert(
+		"Survivor's Edge ".to_string(),
+		format!("{}__Athlon/Survivor's Edge", BASE_PATH),
 	);
 
 	// AudioFile Publications
@@ -1287,6 +1297,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	);
 
 	// Doolittle Media
+	destination_map.insert(
+		"Aero Modeller ".to_string(),
+		format!("{}__Doolittle Media/Aero Modeller", BASE_PATH),
+	);
 	destination_map.insert(
 		"Military Illustrated Modeller ".to_string(),
 		format!("{}__Doolittle Media/Military Illustrated Modeller", BASE_PATH),
@@ -4147,6 +4161,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"Automotive Engineering ".to_string(),
 		format!("{}__SAE Media/Automotive Engineering", BASE_PATH),
 	);
+	destination_map.insert(
+		"Tech Briefs 2".to_string(),
+		format!("{}__SAE Media/Tech Briefs", BASE_PATH),
+	);
 
 	// Sainsbury
 	destination_map.insert(
@@ -4917,6 +4935,20 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__UK Rock & Roll/UK Rock & Roll", BASE_PATH),
 	);
 
+	// UKIP Media
+	destination_map.insert(
+		"ADAS & Autonomous Vehicle International ".to_string(),
+		format!("{}__UKIP Media/UK Rock & Roll", BASE_PATH),
+	);
+	destination_map.insert(
+		"Automotive Powertrain Technology International ".to_string(),
+		format!("{}__UKIP Media/Automotive Powertrain Technology International", BASE_PATH),
+	);
+	destination_map.insert(
+		"Automotive Testing Technology International ".to_string(),
+		format!("{}__UKIP Media/Automotive Testing Technology International", BASE_PATH),
+	);
+
 	// Ulster Journals Ltd
 	destination_map.insert(
 		"Perspective #".to_string(),
@@ -4963,6 +4995,18 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Melbourne Pool + Outdoor Design ".to_string(),
 		format!("{}__United Media Group/Melbourne Pool + Outdoor Design", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sydney Home Design + Living ".to_string(),
+		format!("{}__United Media Group/Sydney Home Design + Living", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sydney Kitchen + Bathroom Design ".to_string(),
+		format!("{}__United Media Group/Sydney Kitchen + Bathroom Design", BASE_PATH),
+	);
+	destination_map.insert(
+		"Sydney Pool + Outdoor Design ".to_string(),
+		format!("{}__United Media Group/Sydney Pool + Outdoor Design", BASE_PATH),
 	);
 	destination_map.insert(
 		"Western Australia Home Design + Living ".to_string(),
