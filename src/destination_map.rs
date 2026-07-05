@@ -183,6 +183,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Adventure Entertainment/Wild", BASE_PATH),
 	);
 
+	// ADWEEK
+	destination_map.insert(
+		"ADWEEK ".to_string(),
+		format!("{}__ADWEEK/ADWEEK", BASE_PATH),
+	);
+
 	// AFAR
 	destination_map.insert(
 		"AFAR ".to_string(),
@@ -746,6 +752,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Bloomberg Businessweek ".to_string(),
 		format!("{}__Bloomberg/Bloomberg Businessweek", BASE_PATH),
+	);
+	destination_map.insert(
+		"Bloomberg Markets ".to_string(),
+		format!("{}__Bloomberg/Bloomberg Markets", BASE_PATH),
 	);
 
 	// Blues Matters
@@ -1499,6 +1509,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	// Falkemedia
 	destination_map.insert(
 		"Beat #".to_string(),
+		format!("{}__Falkemedia/Beat", BASE_PATH),
+	);
+	destination_map.insert(
+		"Beat - ".to_string(),
 		format!("{}__Falkemedia/Beat", BASE_PATH),
 	);
 
@@ -2507,6 +2521,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Immediate/BBC Easy Cook", BASE_PATH),
 	);
 	destination_map.insert(
+		"Easy Cook ".to_string(),
+		format!("{}__Immediate/BBC Easy Cook", BASE_PATH),
+	);
+	destination_map.insert(
 		"BBC Gardeners' World ".to_string(),
 		format!("{}__Immediate/BBC Gardeners' World", BASE_PATH),
 	);
@@ -2780,6 +2798,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Kelsey/Amateur Photographer", BASE_PATH),
 	);
 	destination_map.insert(
+		"Aviation Classics Monthly ".to_string(),
+		format!("{}__Kelsey/Aviation Classics Monthly", BASE_PATH),
+	);
+	destination_map.insert(
 		"Boxing News ".to_string(),
 		format!("{}__Kelsey/Boxing News", BASE_PATH),
 	);
@@ -2792,7 +2814,7 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Kelsey/ClayCraft", BASE_PATH),
 	);
 	destination_map.insert(
-		"Coast 20".to_string(),
+		"Coast Magazine 20".to_string(),
 		format!("{}__Kelsey/Coast", BASE_PATH),
 	);
 	destination_map.insert(
@@ -2834,6 +2856,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"The Great Outdoors ".to_string(),
 		format!("{}__Kelsey/The Great Outdoors", BASE_PATH),
+	);
+	destination_map.insert(
+		"Tractor & Machinery ".to_string(),
+		format!("{}__Kelsey/Tractor & Machinery", BASE_PATH),
 	);
 	destination_map.insert(
 		"Uncut ".to_string(),
@@ -3573,6 +3599,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__National Review Inc/National Review", BASE_PATH),
 	);
 
+	// National Rifle Association
+	destination_map.insert(
+		"American Rifleman ".to_string(),
+		format!("{}__National Rifle Association/American Rifleman", BASE_PATH),
+	);
+
 	// National Wildlife Federation USA
 	destination_map.insert(
 		"National Wildlife ".to_string(),
@@ -3840,6 +3872,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	// Paragraph Publishing
 	destination_map.insert(
 		"American Whiskey #".to_string(),
+		format!("{}__Paragraph Publishing/American Whisky", BASE_PATH),
+	);
+	destination_map.insert(
+		"American Whiskey - ".to_string(),
 		format!("{}__Paragraph Publishing/American Whisky", BASE_PATH),
 	);
 	destination_map.insert(
@@ -4342,8 +4378,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Sparkle Buds/3D", BASE_PATH),
 	);
 	destination_map.insert(
-		"ADHDEFG ".to_string(),
-		format!("{}__Sparkle Buds/ADHDEFG", BASE_PATH),
+		"ADHD-EFG ".to_string(),
+		format!("{}__Sparkle Buds/ADHD-EFG", BASE_PATH),
 	);
 	destination_map.insert(
 		"Brain Train ".to_string(),
@@ -4456,8 +4492,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Streamline Publishing/Fine Art Connoisseur", BASE_PATH),
 	);
 	destination_map.insert(
-		"Plein Air Magazine ".to_string(),
-		format!("{}__Streamline Publishing/Plein Air Magazine", BASE_PATH),
+		"PleinAir Magazine ".to_string(),
+		format!("{}__Streamline Publishing/PleinAir Magazine", BASE_PATH),
 	);
 
 	// Summit Media Inc
@@ -4774,6 +4810,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"The Times Literary Supplement ".to_string(),
 		format!("{}__The Times Literary Supplement/The Times Literary Supplement", BASE_PATH),
 	);
+	destination_map.insert(
+		"Times Literary Supplement ".to_string(),
+		format!("{}__The Times Literary Supplement/The Times Literary Supplement", BASE_PATH),
+	);
 
 	// The Walrus Foundation
 	destination_map.insert(
@@ -4975,6 +5015,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Under the Radar ".to_string(),
 		format!("{}__Under the Radar/Under the Radar", BASE_PATH),
+	);
+
+	// Unfiltered Media
+	destination_map.insert(
+		"Craft Beer & Brewing ".to_string(),
+		format!("{}__Unfiltered Media/Craft Beer & Brewing", BASE_PATH),
 	);
 
 	// Univ. of Toronto
