@@ -2038,6 +2038,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Guardian News & Media/The Guardian Weekly", BASE_PATH),
 	);
 	destination_map.insert(
+		"The Guardian What's On ".to_string(),
+		format!("{}__Guardian News & Media/The Guardian What's On", BASE_PATH),
+	);
+	destination_map.insert(
 		"The Observer Food Monthly ".to_string(),
 		format!("{}__Guardian News & Media/The Observer Food Monthly", BASE_PATH),
 	);
@@ -2124,8 +2128,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__H Bauer/Modern Gardens", BASE_PATH),
 	);
 	destination_map.insert(
-		"Mojo ".to_string(),
-		format!("{}__H Bauer/Mojo", BASE_PATH),
+		"MOJO ".to_string(),
+		format!("{}__H Bauer/MOJO", BASE_PATH),
 	);
 	destination_map.insert(
 		"Trail Running ".to_string(),
@@ -3572,6 +3576,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		"National Geographic UK ".to_string(),
 		format!("{}__National Geographic/National Geographic UK", BASE_PATH),
 	);
+	destination_map.insert(
+		"National Geographic US ".to_string(),
+		format!("{}__National Geographic/National Geographic US", BASE_PATH),
+	);
 
 	// National Maritime Historical Society
 	destination_map.insert(
@@ -4074,6 +4082,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Hello World ".to_string(),
 		format!("{}__Raspberry Pi Press/Hello World", BASE_PATH),
+	);
+	destination_map.insert(
+		"Raspberry Pi Official Magazine ".to_string(),
+		format!("{}__Raspberry Pi Press/Raspberry Pi Official Magazine", BASE_PATH),
 	);
 	destination_map.insert(
 		"The MagPi ".to_string(),
