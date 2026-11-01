@@ -2954,6 +2954,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Kickin' Cuts/Country Music People", BASE_PATH),
 	);
 
+	// Kirkus Media
+	destination_map.insert(
+		"Kirkus Reviews ".to_string(),
+		format!("{}__Kirkus Media/Kirkus Reviews", BASE_PATH),
+	);
+
 	// Koru Media
 	destination_map.insert(
 		"ABCD ".to_string(),
