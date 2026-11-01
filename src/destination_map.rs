@@ -1524,6 +1524,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Fifth Black/Design Anthology Asia", BASE_PATH),
 	);
 
+	// Firecrown Media Inc.
+	destination_map.insert(
+		"Yachting Magazine ".to_string(),
+		format!("{}__Firecrown Media/Yachting Magazine", BASE_PATH),
+	);
+
 	// Forbes Media
 	destination_map.insert(
 		"Forbes 20".to_string(),
@@ -1978,6 +1984,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Golden Peak Media/Southwest Art", BASE_PATH),
 	);
 	destination_map.insert(
+		"The Pastel Journal ".to_string(),
+		format!("{}__Golden Peak Media/The Pastel Journal", BASE_PATH),
+	);
+	destination_map.insert(
 		"Watercolor Artist ".to_string(),
 		format!("{}__Golden Peak Media/Watercolor Artist", BASE_PATH),
 	);
@@ -2048,6 +2058,10 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"The Observer Magazine ".to_string(),
 		format!("{}__Guardian News & Media/The Observer Magazine", BASE_PATH),
+	);
+	destination_map.insert(
+		"The Observer The New Review ".to_string(),
+		format!("{}__Guardian News & Media/The Observer The New Review", BASE_PATH),
 	);
 
 	// Guideline Publications
@@ -4785,6 +4799,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Skeptic #".to_string(),
 		format!("{}__The Skeptics Society/Skeptic", BASE_PATH),
+	);
+
+	// The Spectator
+	destination_map.insert(
+		"The Spectator ".to_string(),
+		format!("{}__The Spectator/The Spectator", BASE_PATH),
 	);
 
 	// The Stylist Group
