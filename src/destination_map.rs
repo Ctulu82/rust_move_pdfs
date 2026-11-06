@@ -706,6 +706,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Bandicoot Publishing/Artist Profile", BASE_PATH),
 	);
 
+	// Battenkill Communications
+	destination_map.insert(
+		"Brew Your Own ".to_string(),
+		format!("{}__Battenkill Communications/Brew Your Own", BASE_PATH),
+	);
+
 	// Bayshore History
 	destination_map.insert(
 		"The Civil War Monitor ".to_string(),
@@ -924,6 +930,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"Control Engineering ".to_string(),
 		format!("{}__CFE Media/Control Engineering", BASE_PATH),
+	);
+
+	//  CGMagazine Publishing
+	destination_map.insert(
+		"CGMagazine ".to_string(),
+		format!("{}__CGMagazine Publishing/CGMagazine", BASE_PATH),
 	);
 
 	// Challenge Publications
@@ -1580,6 +1592,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 	destination_map.insert(
 		"VegNews ".to_string(),
 		format!("{}__Fresh Healthy Media/VegNews", BASE_PATH),
+	);
+
+	// Frieze Publishing
+	destination_map.insert(
+		"Frieze ".to_string(),
+		format!("{}__Frieze Publishing/Frieze", BASE_PATH),
 	);
 
 	// Full Circle
@@ -3006,6 +3024,12 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Lifestyle Publishing/Wilderness", BASE_PATH),
 	);
 
+	// Limelight Arts Media
+	destination_map.insert(
+		"Limelight 2".to_string(),
+		format!("{}__Limelight Arts Media/Limelight", BASE_PATH),
+	);
+
 	// Linux New Media
 	destination_map.insert(
 		"ADMIN Magazine ".to_string(),
@@ -3705,8 +3729,8 @@ pub fn get_destination_map() -> HashMap<String, String> {
 		format!("{}__Nextmedia/Frankie", BASE_PATH),
 	);
 	destination_map.insert(
-		"Gardening Australia ".to_string(),
-		format!("{}__Nextmedia/Gardening Australia", BASE_PATH),
+		"Gardening AU ".to_string(),
+		format!("{}__Nextmedia/Gardening AU", BASE_PATH),
 	);
 	destination_map.insert(
 		"Healthy Food Guide AU ".to_string(),
